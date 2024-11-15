@@ -25,3 +25,11 @@ pub async fn create_moves_table(pool: &Pool<sqlx::Sqlite>) -> Result<SqliteQuery
 
     return Ok(query);
 }
+
+pub async fn fill_moves_table(pool: &Pool<sqlx::Sqlite>) -> Result<SqliteQueryResult, sqlx::Error> {
+    let query = sqlx::query("")
+        .execute(pool)
+        .await?;
+
+    return Ok(query);
+}
