@@ -1,10 +1,18 @@
 mod utils;
-
-//use sqlx::Pool;
-use tokio;
-//use utils::create_moves_table;
+mod model;
 
 #[tokio::main]
 async fn main() {
-    println!("Hello World!");
+    // Connect to the SQLite database
+    let pool = utils::connect()
+        .await
+        .expect("Failed to connect to database");
+
+    let test_string = "calm mind";
+
+    let test_move: model::Move = utils::search_move_by_name(&pool, test_string)
+    .await
+    .expect(&format!("[Move `{}`] could not be found in the database", test_string));
+
+    println!("{:?}", test_move);
 }
