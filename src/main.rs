@@ -8,11 +8,12 @@ async fn main() {
         .await
         .expect("Failed to connect to database");
 
-    let test_string = "waterfall";
+    let move_as_json = utils::move_to_json(
+        &utils::search_move_by_name(
+            &pool, "waterfall"
+        )
+        .await
+    ).await;
 
-    let test_move: model::Move = utils::search_move_by_name(&pool, test_string)
-    .await
-    .expect(&format!("[Move `{}`] could not be found in the database", test_string));
-
-    println!("{}", test_move.to_string());
+    println!("{}", &move_as_json);
 }

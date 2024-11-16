@@ -27,3 +27,13 @@ pub async fn search_move_by_name(pool: &sqlx::SqlitePool, move_name: &str) -> Op
         return None;
     }
 }
+
+pub async fn move_to_json(move_object: &Option<model::Move>) -> String {
+    return match move_object {
+        Some(value) => match serde_json::to_string(&value) {
+            Ok(inner_value) => inner_value,
+            Err(_) => "Failed to serialize Move object".to_string(),
+        },
+        None => "[Move] was empty".to_string(),
+    };
+}
