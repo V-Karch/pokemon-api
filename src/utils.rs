@@ -12,7 +12,7 @@ pub async fn search_move_by_name(pool: &sqlx::SqlitePool, move_name: &str) -> Op
         .fetch_one(pool)
         .await
     {
-        Some(model::Move {
+        return Some(model::Move {
             id: row.get("id"),
             name: row.get("name"),
             move_type: row.get("type"),
@@ -24,6 +24,6 @@ pub async fn search_move_by_name(pool: &sqlx::SqlitePool, move_name: &str) -> Op
             probability: row.try_get("probability").ok(),
         })
     } else {
-        None
+        return None;
     }
 }
