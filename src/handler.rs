@@ -174,3 +174,27 @@ pub async fn list_all_abilities(pool: sqlx::SqlitePool) -> model::WebResult<impl
         )),
     };
 }
+
+pub async fn list_all_types(pool: sqlx::SqlitePool) -> model::WebResult<impl warp::Reply> {
+    return match sqlx::query("SELECT type_name FROM pokemon_types")
+        .fetch_all(&pool)
+        .await
+    {
+        Ok(rows) => {
+            // Collect all ability names into a Vec<String>
+            let ability_names: Vec<String> = rows.iter().map(|row| row.get("type_name")).collect();
+            Ok(warp::reply::with_status(
+                json(&ability_names),
+                StatusCode::OK,
+            ))
+        }
+        Err(_) => Ok(warp::reply::with_status(
+            json(&model::GenericFailure {
+                status: "Error".to_string(),
+                message: "Failed to retrieve the list of types.".to_string(),
+            }),
+            StatusCode::INTERNAL_SERVER_ERROR,
+        )),
+    };
+}
+

@@ -55,6 +55,11 @@ async fn main() {
         .and(pool_filter.clone())
         .and_then(handler::list_all_abilities);
 
+    let list_all_types_route = warp::path!("api" / "type")
+        .and(warp::get())
+        .and(pool_filter.clone())
+        .and_then(handler::list_all_types);
+
     // Combine all the routes into one
     let routes = version_info_route
         .or(search_move_by_id_route)
@@ -63,6 +68,7 @@ async fn main() {
         .or(search_ability_by_name_route)
         .or(list_all_moves_route)
         .or(list_all_abilities_route)
+        .or(list_all_types_route)
         .with(warp::log("api"));
 
     println!("🚀 Server started successfully at http://0.0.0.0:8000");
