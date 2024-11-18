@@ -15,5 +15,14 @@ async fn main() {
         .await
     ).await;
 
+    let another_move_as_json = utils::move_to_json(
+        &utils::search_move_by_id(
+            &pool, 12
+        )
+        .await
+    ).await;
+
     println!("{}", &move_as_json);
+
+    println!("{}", &another_move_as_json);
 }

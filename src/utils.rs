@@ -19,10 +19,32 @@ pub async fn search_move_by_name(pool: &sqlx::SqlitePool, move_name: &str) -> Op
             category: row.get("category"),
             power: row.try_get("power").ok(),
             accuracy: row.try_get("accuracy").ok(),
-            pp: row.try_get("pp").ok(),
+            pp: row.try_get("PP").ok(),
             effect: row.try_get("effect").ok(),
             probability: row.try_get("probability").ok(),
         })
+    } else {
+        return None;
+    }
+}
+
+pub async fn search_move_by_id(pool: &sqlx::SqlitePool, move_id: i32) -> Option<model::Move> {
+    if let Ok(row) = sqlx::query("SELECT * FROM moves WHERE id = ?")
+        .bind(move_id)
+        .fetch_one(pool)
+        .await
+    {
+        return Some(model::Move {
+            id: row.get("id"),
+            name: row.get("name"),
+            move_type: row.get("type"),
+            category: row.get("category"),
+            power: row.try_get("power").ok(),
+            accuracy: row.try_get("accuracy").ok(),
+            pp: row.try_get("PP").ok(),
+            effect: row.try_get("effect").ok(),
+            probability: row.try_get("probability").ok(),
+        });
     } else {
         return None;
     }
