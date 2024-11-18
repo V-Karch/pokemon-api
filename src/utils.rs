@@ -57,6 +57,7 @@ pub async fn search_ability_by_id(pool: &sqlx::SqlitePool, move_id: i32) -> Opti
         .await
     {
         return Some(model::Ability {
+            id: row.get("id"),
             name: row.get("name"),
             pokemon_count: row.get("pokemon"),
             effect: row.get("effect"),
@@ -74,6 +75,7 @@ pub async fn search_ability_by_name(pool: &sqlx::SqlitePool, move_name: &str) ->
         .await
     {
         return Some(model::Ability {
+            id: row.get("id"),
             name: row.get("name"),
             pokemon_count: row.get("pokemon"),
             effect: row.get("effect"),

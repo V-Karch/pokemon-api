@@ -13,6 +13,7 @@ pub struct Move {
 
 #[derive(serde::Serialize)]
 pub struct Ability {
+    pub id: i32,
     pub name: String,
     pub pokemon_count: i32,
     pub effect: String,
@@ -38,12 +39,12 @@ pub struct Representative {
     pub base_friendship: i32,
     pub catch_rate: i32,
     // ev_yield
-    pub growth_rate: i32
+    pub growth_rate: i32,
     // egg groups
     // gender ratios
     // egg cycles
     // type defenses
     // evolution chart,
-    // entries
+    pub entry: Vec<String>, // Link to other table
     // locations
 }
