@@ -1,4 +1,4 @@
-use crate::model::{self, Ability};
+use crate::model;
 use sqlx::{sqlite::SqlitePool, Pool, Row};
 
 pub async fn connect() -> Result<Pool<sqlx::Sqlite>, sqlx::Error> {

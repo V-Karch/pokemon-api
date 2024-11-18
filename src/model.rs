@@ -19,32 +19,31 @@ pub struct Ability {
     pub generation: i32
 }
 
-#[derive(serde::Serialize)]
-pub struct EVYield {
-    pub stat: String,
-    pub amount: i32
-}
 
 #[derive(serde::Serialize)]
-pub struct Pokemon {
+pub struct Representative {
     pub id: i32,
     pub national_number: i32,
-    pub types: Vec<String>,
+    pub types: Vec<String>, // Link other table
     pub height: f32,
     pub weight: f32,
-    pub abilities: Vec<Ability>,
-    pub local_numbers: Vec<i32>,
-    pub ev_yield: EVYield
-    // catch rate
-    // base friendship
-    // growth rate
+    pub abilities: i32, // Link other table,
+    pub local_numbers: Vec<i32>, // Link other table
+    pub hp: i32,
+    pub atk: i32,
+    pub def: i32,
+    pub spatk: i32,
+    pub spdef: i32,
+    pub speed: i32,
+    pub base_friendship: i32,
+    pub catch_rate: i32,
+    // ev_yield
+    pub growth_rate: i32
     // egg groups
     // gender ratios
     // egg cycles
-    // base stats
     // type defenses
     // evolution chart,
     // entries
-    // moves
     // locations
 }
