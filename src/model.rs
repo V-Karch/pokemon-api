@@ -19,7 +19,7 @@ pub struct Ability {
     pub name: String,
     pub pokemon_count: i32,
     pub effect: String,
-    pub generation: i32
+    pub generation: i32,
 }
 
 #[derive(serde::Serialize)]
@@ -41,7 +41,7 @@ pub struct Representative {
     pub types: Vec<String>, // Link other table
     pub height: f32,
     pub weight: f32,
-    pub abilities: i32, // Link other table,
+    pub abilities: i32,          // Link other table,
     pub local_numbers: Vec<i32>, // Link other table
     pub hp: i32,
     pub atk: i32,
@@ -59,7 +59,7 @@ pub struct Representative {
     // type defenses
     // evolution chart,
     pub entry: Vec<String>, // Link to other table
-    // locations
+                            // locations
 }
 
 pub type WebResult<T> = std::result::Result<T, Rejection>;

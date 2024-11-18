@@ -1,6 +1,6 @@
-mod utils;
-mod model;
 mod handler;
+mod model;
+mod utils;
 
 use warp::Filter;
 
@@ -35,6 +35,11 @@ async fn main() {
         .and(pool_filter.clone()) // Inject the pool into the route
         .and_then(handler::search_move_by_name);
 
+    let list_all_moves_route = warp::path!("api" / "move")
+        .and(warp::get())
+        .and(pool_filter.clone()) // Inject the pool into the route
+        .and_then(handler::list_all_moves);
+
     let search_ability_by_id_route = warp::path!("api" / "ability" / i32)
         .and(warp::get())
         .and(pool_filter.clone()) // Inject the pool into the route
@@ -45,12 +50,19 @@ async fn main() {
         .and(pool_filter.clone()) // Inject the pool into the route
         .and_then(handler::search_ability_by_name);
 
+    let list_all_abilities_route = warp::path!("api" / "ability")
+        .and(warp::get())
+        .and(pool_filter.clone())
+        .and_then(handler::list_all_abilities);
+
     // Combine all the routes into one
     let routes = version_info_route
         .or(search_move_by_id_route)
         .or(search_move_by_name_route)
         .or(search_ability_by_id_route)
         .or(search_ability_by_name_route)
+        .or(list_all_moves_route)
+        .or(list_all_abilities_route)
         .with(warp::log("api"));
 
     println!("🚀 Server started successfully at http://0.0.0.0:8000");

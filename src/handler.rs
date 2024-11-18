@@ -134,3 +134,43 @@ pub async fn search_ability_by_name(
         )),
     }
 }
+
+pub async fn list_all_moves(pool: sqlx::SqlitePool) -> model::WebResult<impl warp::Reply> {
+    match sqlx::query("SELECT name FROM moves").fetch_all(&pool).await {
+        Ok(rows) => {
+            // Collect all move names into a Vec<String>
+            let move_names: Vec<String> = rows.iter().map(|row| row.get("name")).collect();
+            Ok(warp::reply::with_status(json(&move_names), StatusCode::OK))
+        }
+        Err(_) => Ok(warp::reply::with_status(
+            json(&model::GenericFailure {
+                status: "Error".to_string(),
+                message: "Failed to retrieve the list of moves.".to_string(),
+            }),
+            StatusCode::INTERNAL_SERVER_ERROR,
+        )),
+    }
+}
+
+pub async fn list_all_abilities(pool: sqlx::SqlitePool) -> model::WebResult<impl warp::Reply> {
+    match sqlx::query("SELECT name FROM abilities")
+        .fetch_all(&pool)
+        .await
+    {
+        Ok(rows) => {
+            // Collect all ability names into a Vec<String>
+            let ability_names: Vec<String> = rows.iter().map(|row| row.get("name")).collect();
+            Ok(warp::reply::with_status(
+                json(&ability_names),
+                StatusCode::OK,
+            ))
+        }
+        Err(_) => Ok(warp::reply::with_status(
+            json(&model::GenericFailure {
+                status: "Error".to_string(),
+                message: "Failed to retrieve the list of abilities.".to_string(),
+            }),
+            StatusCode::INTERNAL_SERVER_ERROR,
+        )),
+    }
+}
