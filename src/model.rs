@@ -1,3 +1,5 @@
+use warp::reject::Rejection;
+
 #[derive(serde::Serialize)]
 pub struct Move {
     pub id: i32,
@@ -20,6 +22,17 @@ pub struct Ability {
     pub generation: i32
 }
 
+#[derive(serde::Serialize)]
+pub struct VersionInfoResponse {
+    pub status: String,
+    pub version: String,
+}
+
+#[derive(serde::Serialize)]
+pub struct GenericFailure {
+    pub status: String,
+    pub message: String,
+}
 
 #[derive(serde::Serialize)]
 pub struct Representative {
@@ -48,3 +61,5 @@ pub struct Representative {
     pub entry: Vec<String>, // Link to other table
     // locations
 }
+
+pub type WebResult<T> = std::result::Result<T, Rejection>;

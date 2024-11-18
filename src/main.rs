@@ -11,42 +11,49 @@ async fn main() {
         .await
         .expect("Failed to connect to database");
 
-    let ability_as_json = utils::ability_to_json(
-        &handler::search_ability_by_id(
-            &pool, 12
-        ).await
-    ).await;
-
-    let move_as_json = utils::move_to_json(
-        &handler::search_move_by_id(
-            &pool, 700
-        ).await
-    ).await;
-
-    println!("{}", &ability_as_json);
-    println!("{}", &move_as_json);
-
     // API setup
     if std::env::var_os("RUST_LOG").is_none() {
         std::env::set_var("RUST_LOG", "api=info");
     }
     pretty_env_logger::init();
 
+    // Cloneable pool for route injection
+    let pool_filter = warp::any().map(move || pool.clone());
+
     // Define individual routes
     let version_info_route = warp::path!("api")
         .and(warp::get())
         .and_then(handler::version_info);
 
-    let search_move_by_id = warp::path!("api" / "move" / i32)
+    let search_move_by_id_route = warp::path!("api" / "move" / i32)
         .and(warp::get())
-        .and_then(handler::search_move_by_id_temp);
+        .and(pool_filter.clone()) // Inject the pool into the route
+        .and_then(handler::search_move_by_id);
+
+    let search_move_by_name_route = warp::path!("api" / "move" / String)
+        .and(warp::get())
+        .and(pool_filter.clone()) // Inject the pool into the route
+        .and_then(handler::search_move_by_name);
+
+    let search_ability_by_id_route = warp::path!("api" / "ability" / i32)
+        .and(warp::get())
+        .and(pool_filter.clone()) // Inject the pool into the route
+        .and_then(handler::search_ability_by_id);
+
+    let search_ability_by_name_route = warp::path!("api" / "ability" / String)
+        .and(warp::get())
+        .and(pool_filter.clone()) // Inject the pool into the route
+        .and_then(handler::search_ability_by_name);
 
     // Combine all the routes into one
     let routes = version_info_route
-        .or(search_move_by_id)
+        .or(search_move_by_id_route)
+        .or(search_move_by_name_route)
+        .or(search_ability_by_id_route)
+        .or(search_ability_by_name_route)
         .with(warp::log("api"));
 
-    println!("🚀 Server started successfully");
+    println!("🚀 Server started successfully at http://0.0.0.0:8000");
 
     // Run the server
     warp::serve(routes).run(([0, 0, 0, 0], 8000)).await;
