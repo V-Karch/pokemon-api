@@ -1,4 +1,5 @@
 mod utils;
+mod handler;
 mod model;
 
 #[tokio::main]
@@ -9,7 +10,7 @@ async fn main() {
         .expect("Failed to connect to database");
 
     let ability_as_json = utils::ability_to_json(
-        &utils::search_ability_by_id(
+        &handler::search_ability_by_id(
             &pool, 12
         ).await
     ).await;
