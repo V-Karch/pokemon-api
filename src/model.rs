@@ -13,10 +13,10 @@ pub struct Move {
 
 #[derive(serde::Serialize)]
 pub struct Ability {
-    pub slot: i32,
     pub name: String,
+    pub pokemon_count: i32,
     pub effect: String,
-    pub hidden: bool
+    pub generation: i32
 }
 
 #[derive(serde::Serialize)]
