@@ -8,14 +8,14 @@ pub async fn version_info() -> model::WebResult<impl warp::Reply> {
         status: "Success".to_string(),
         version: "pokemon-api v0.0.1".to_string(),
     };
-    return Ok(json(response_json));
+    Ok(json(response_json))
 }
 
 pub async fn search_move_by_name(
     move_name: String,
     pool: sqlx::SqlitePool,
 ) -> model::WebResult<impl warp::Reply> {
-    return match sqlx::query("SELECT * FROM moves WHERE name = ?")
+    match sqlx::query("SELECT * FROM moves WHERE name = ?")
         .bind(move_name.replace(" ", "-"))
         .fetch_one(&pool)
         .await
@@ -41,14 +41,14 @@ pub async fn search_move_by_name(
             }),
             StatusCode::NOT_FOUND,
         )),
-    };
+    }
 }
 
 pub async fn search_move_by_id(
     move_id: i32,
     pool: sqlx::SqlitePool,
 ) -> model::WebResult<impl warp::Reply> {
-    return match sqlx::query("SELECT * FROM moves WHERE id = ?")
+    match sqlx::query("SELECT * FROM moves WHERE id = ?")
         .bind(move_id)
         .fetch_one(&pool)
         .await
@@ -74,14 +74,14 @@ pub async fn search_move_by_id(
             }),
             StatusCode::NOT_FOUND,
         )),
-    };
+    }
 }
 
 pub async fn search_ability_by_id(
     ability_id: i32,
     pool: sqlx::SqlitePool,
 ) -> model::WebResult<impl warp::Reply> {
-    return match sqlx::query("SELECT * FROM abilities WHERE id = ?")
+    match sqlx::query("SELECT * FROM abilities WHERE id = ?")
         .bind(ability_id)
         .fetch_one(&pool)
         .await
@@ -103,14 +103,14 @@ pub async fn search_ability_by_id(
             }),
             StatusCode::NOT_FOUND,
         )),
-    };
+    }
 }
 
 pub async fn search_ability_by_name(
     ability_name: String,
     pool: sqlx::SqlitePool,
 ) -> WebResult<impl warp::Reply> {
-    return match sqlx::query("SELECT * FROM abilities WHERE name = ?")
+    match sqlx::query("SELECT * FROM abilities WHERE name = ?")
         .bind(&ability_name)
         .fetch_one(&pool)
         .await
@@ -132,7 +132,7 @@ pub async fn search_ability_by_name(
             }),
             StatusCode::NOT_FOUND,
         )),
-    };
+    }
 }
 
 pub async fn list_all_moves(pool: sqlx::SqlitePool) -> model::WebResult<impl warp::Reply> {
