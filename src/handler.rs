@@ -223,3 +223,29 @@ pub async fn search_type_by_id(
         )),
     }
 }
+
+pub async fn search_type_by_name(
+    type_name: String,
+    pool: sqlx::SqlitePool,
+) -> model::WebResult<impl warp::Reply> {
+    match sqlx::query("SELECT * FROM pokemon_types WHERE type_name = ?")
+        .bind(&type_name)
+        .fetch_one(&pool)
+        .await
+    {
+        Ok(row) => Ok(warp::reply::with_status(
+            json(&model::PokemonType {
+                id: row.get("type_id"),
+                name: row.get("type_name")
+            }),
+            StatusCode::OK,
+        )),
+        Err(_) => Ok(warp::reply::with_status(
+            json(&model::GenericFailure {
+                status: "Error".to_string(),
+                message: format!("Type`{}` not found", &type_name),
+            }),
+            StatusCode::NOT_FOUND,
+        )),
+    }
+}
