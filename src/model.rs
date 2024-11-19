@@ -35,6 +35,12 @@ pub struct GenericFailure {
 }
 
 #[derive(serde::Serialize)]
+pub struct PokemonType {
+    pub id: i32,
+    pub name: String,
+}
+
+#[derive(serde::Serialize)]
 pub struct Representative {
     pub id: i32,
     pub national_number: i32,

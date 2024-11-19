@@ -198,3 +198,28 @@ pub async fn list_all_types(pool: sqlx::SqlitePool) -> model::WebResult<impl war
     };
 }
 
+pub async fn search_type_by_id(
+    type_id: i32,
+    pool: sqlx::SqlitePool,
+) -> model::WebResult<impl warp::Reply> {
+    match sqlx::query("SELECT * FROM pokemon_types WHERE type_id = ?")
+        .bind(type_id)
+        .fetch_one(&pool)
+        .await
+    {
+        Ok(row) => Ok(warp::reply::with_status(
+            json(&model::PokemonType {
+                id: row.get("type_id"),
+                name: row.get("type_name")
+            }),
+            StatusCode::OK,
+        )),
+        Err(_) => Ok(warp::reply::with_status(
+            json(&model::GenericFailure {
+                status: "Error".to_string(),
+                message: format!("Type ID `{}` not found", type_id),
+            }),
+            StatusCode::NOT_FOUND,
+        )),
+    }
+}
