@@ -271,7 +271,35 @@ pub async fn search_item_by_id(
         Err(_) => Ok(warp::reply::with_status(
             json(&model::GenericFailure {
                 status: "Error".to_string(),
-                message: format!("Type ID `{}` not found", item_id),
+                message: format!("Item ID `{}` not found", item_id),
+            }),
+            StatusCode::NOT_FOUND,
+        )),
+    }
+}
+
+pub async fn search_item_by_name(
+    item_name: String,
+    pool: sqlx::SqlitePool,
+) -> model::WebResult<impl warp::Reply> {
+    match sqlx::query("SELECT * FROM items WHERE name = ?")
+        .bind(&item_name)
+        .fetch_one(&pool)
+        .await
+    {
+        Ok(row) => Ok(warp::reply::with_status(
+            json(&model::Item {
+                id: row.get("id"),
+                name: row.get("name"),
+                category: row.try_get("category").ok(),
+                effect: row.try_get("effect").ok(),
+            }),
+            StatusCode::OK,
+        )),
+        Err(_) => Ok(warp::reply::with_status(
+            json(&model::GenericFailure {
+                status: "Error".to_string(),
+                message: format!("Item `{}` not found", &item_name),
             }),
             StatusCode::NOT_FOUND,
         )),
