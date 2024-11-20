@@ -328,3 +328,35 @@ pub async fn list_all_items(pool: sqlx::SqlitePool) -> model::WebResult<impl war
         )),
     };
 }
+
+pub async fn list_items_by_category(
+    category_name: String,
+    pool: sqlx::SqlitePool,
+) -> model::WebResult<impl warp::Reply> {
+    match sqlx::query("SELECT * FROM items WHERE category = ?")
+        .bind(&category_name)
+        .fetch_all(&pool)
+        .await
+    {
+        Ok(rows) => {
+            let items: Vec<model::Item> = rows
+                .into_iter()
+                .map(|row| model::Item {
+                    id: row.get("id"),
+                    name: row.get("name"),
+                    category: row.try_get("category").ok(),
+                    effect: row.try_get("effect").ok(),
+                })
+                .collect();
+
+            Ok(warp::reply::with_status(json(&items), StatusCode::OK))
+        }
+        Err(_) => Ok(warp::reply::with_status(
+            json(&model::GenericFailure {
+                status: "Error".to_string(),
+                message: format!("No items found in category `{}`", &category_name),
+            }),
+            StatusCode::NOT_FOUND,
+        )),
+    }
+}
