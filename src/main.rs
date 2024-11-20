@@ -80,6 +80,11 @@ async fn main() {
         .and(pool_filter.clone())
         .and_then(handler::search_item_by_name);
 
+    let list_all_items_route = warp::path!("api" / "item")
+        .and(warp::get())
+        .and(pool_filter.clone())
+        .and_then(handler::list_all_items);
+
     // Combine all the routes into one
     let routes = version_info_route
         .or(search_move_by_id_route)
@@ -93,6 +98,7 @@ async fn main() {
         .or(search_type_by_name_route)
         .or(search_item_by_id_route)
         .or(search_item_by_name_route)
+        .or(list_all_items_route)
         .with(warp::log("api"));
 
     println!("🚀 pokemon-api v0.0.1 started successfully at http://0.0.0.0:8000");

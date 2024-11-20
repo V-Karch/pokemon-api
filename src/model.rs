@@ -48,32 +48,4 @@ pub struct Item {
     pub effect: Option<String>
 }
 
-#[derive(serde::Serialize)]
-pub struct Representative {
-    pub id: i32,
-    pub national_number: i32,
-    pub types: Vec<String>, // Link other table
-    pub height: f32,
-    pub weight: f32,
-    pub abilities: i32,          // Link other table,
-    pub local_numbers: Vec<i32>, // Link other table
-    pub hp: i32,
-    pub atk: i32,
-    pub def: i32,
-    pub spatk: i32,
-    pub spdef: i32,
-    pub speed: i32,
-    pub base_friendship: i32,
-    pub catch_rate: i32,
-    // ev_yield
-    pub growth_rate: i32,
-    // egg groups
-    // gender ratios
-    // egg cycles
-    // type defenses
-    // evolution chart,
-    pub entry: Vec<String>, // Link to other table
-                            // locations
-}
-
 pub type WebResult<T> = std::result::Result<T, Rejection>;

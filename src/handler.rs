@@ -305,3 +305,26 @@ pub async fn search_item_by_name(
         )),
     }
 }
+
+pub async fn list_all_items(pool: sqlx::SqlitePool) -> model::WebResult<impl warp::Reply> {
+    return match sqlx::query("SELECT name FROM items")
+        .fetch_all(&pool)
+        .await
+    {
+        Ok(rows) => {
+            // Collect all item names into a Vec<String>
+            let item_names: Vec<String> = rows.iter().map(|row| row.get("name")).collect();
+            Ok(warp::reply::with_status(
+                json(&item_names),
+                StatusCode::OK,
+            ))
+        }
+        Err(_) => Ok(warp::reply::with_status(
+            json(&model::GenericFailure {
+                status: "Error".to_string(),
+                message: "Failed to retrieve the list of items.".to_string(),
+            }),
+            StatusCode::INTERNAL_SERVER_ERROR,
+        )),
+    };
+}
