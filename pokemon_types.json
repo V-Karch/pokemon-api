@@ -1,4316 +1,6746 @@
 {
-    "bulbasaur": [
-        10,
-        14
-    ],
-    "ivysaur": [
-        10,
-        14
-    ],
-    "venusaur": [
-        10,
-        14
-    ],
-    "mega-venusaur": [
-        10,
-        14
-    ],
-    "charmander": [
-        7
-    ],
-    "charmeleon": [
-        7
-    ],
-    "charizard": [
-        7,
-        8
-    ],
-    "mega-charizard-x": [
-        7,
-        3
-    ],
-    "mega-charizard-y": [
-        7,
-        8
-    ],
-    "squirtle": [
-        18
-    ],
-    "wartortle": [
-        18
-    ],
-    "blastoise": [
-        18
-    ],
-    "mega-blastoise": [
-        18
-    ],
-    "caterpie": [
-        1
-    ],
-    "metapod": [
-        1
-    ],
-    "butterfree": [
-        1,
-        8
-    ],
-    "weedle": [
-        1,
-        14
-    ],
-    "kakuna": [
-        1,
-        14
-    ],
-    "beedrill": [
-        1,
-        14
-    ],
-    "mega-beedrill": [
-        1,
-        14
-    ],
-    "pidgey": [
-        13,
-        8
-    ],
-    "pidgeotto": [
-        13,
-        8
-    ],
-    "pidgeot": [
-        13,
-        8
-    ],
-    "mega-pidgeot": [
-        13,
-        8
-    ],
-    "rattata": [
-        13
-    ],
-    "alolan-rattata": [
-        2,
-        13
-    ],
-    "raticate": [
-        13
-    ],
-    "alolan-raticate": [
-        2,
-        13
-    ],
-    "spearow": [
-        13,
-        8
-    ],
-    "fearow": [
-        13,
-        8
-    ],
-    "ekans": [
-        14
-    ],
-    "arbok": [
-        14
-    ],
-    "pikachu": [
-        4
-    ],
-    "partner-pikachu": [
-        4
-    ],
-    "raichu": [
-        4
-    ],
-    "alolan-raichu": [
-        4,
-        15
-    ],
-    "sandshrew": [
-        11
-    ],
-    "alolan-sandshrew": [
-        12,
-        17
-    ],
-    "sandslash": [
-        11
-    ],
-    "alolan-sandslash": [
-        12,
-        17
-    ],
-    "nidoran-f": [
-        14
-    ],
-    "nidorina": [
-        14
-    ],
-    "nidoqueen": [
-        14,
-        11
-    ],
-    "nidoran-m": [
-        14
-    ],
-    "nidorino": [
-        14
-    ],
-    "nidoking": [
-        14,
-        11
-    ],
-    "clefairy": [
-        5
-    ],
-    "clefable": [
-        5
-    ],
-    "vulpix": [
-        7
-    ],
-    "alolan-vulpix": [
-        12
-    ],
-    "ninetales": [
-        7
-    ],
-    "alolan-ninetales": [
-        12,
-        5
-    ],
-    "jigglypuff": [
-        13,
-        5
-    ],
-    "wigglytuff": [
-        13,
-        5
-    ],
-    "zubat": [
-        14,
-        8
-    ],
-    "golbat": [
-        14,
-        8
-    ],
-    "oddish": [
-        10,
-        14
-    ],
-    "gloom": [
-        10,
-        14
-    ],
-    "vileplume": [
-        10,
-        14
-    ],
-    "paras": [
-        1,
-        10
-    ],
-    "parasect": [
-        1,
-        10
-    ],
-    "venonat": [
-        1,
-        14
-    ],
-    "venomoth": [
-        1,
-        14
-    ],
-    "diglett": [
-        11
-    ],
-    "alolan-diglett": [
-        11,
-        17
-    ],
-    "dugtrio": [
-        11
-    ],
-    "alolan-dugtrio": [
-        11,
-        17
-    ],
-    "meowth": [
-        13
-    ],
-    "alolan-meowth": [
-        2
-    ],
-    "galarian-meowth": [
-        17
-    ],
-    "persian": [
-        13
-    ],
-    "alolan-persian": [
-        2
-    ],
-    "psyduck": [
-        18
-    ],
-    "golduck": [
-        18
-    ],
-    "mankey": [
-        6
-    ],
-    "primeape": [
-        6
-    ],
-    "growlithe": [
-        7
-    ],
-    "hisuian-growlithe": [
-        7,
-        16
-    ],
-    "arcanine": [
-        7
-    ],
-    "hisuian-arcanine": [
-        7,
-        16
-    ],
-    "poliwag": [
-        18
-    ],
-    "poliwhirl": [
-        18
-    ],
-    "poliwrath": [
-        18,
-        6
-    ],
-    "abra": [
-        15
-    ],
-    "kadabra": [
-        15
-    ],
-    "alakazam": [
-        15
-    ],
-    "mega-alakazam": [
-        15
-    ],
-    "machop": [
-        6
-    ],
-    "machoke": [
-        6
-    ],
-    "machamp": [
-        6
-    ],
-    "bellsprout": [
-        10,
-        14
-    ],
-    "weepinbell": [
-        10,
-        14
-    ],
-    "victreebel": [
-        10,
-        14
-    ],
-    "tentacool": [
-        18,
-        14
-    ],
-    "tentacruel": [
-        18,
-        14
-    ],
-    "geodude": [
-        16,
-        11
-    ],
-    "alolan-geodude": [
-        16,
-        4
-    ],
-    "graveler": [
-        16,
-        11
-    ],
-    "alolan-graveler": [
-        16,
-        4
-    ],
-    "golem": [
-        16,
-        11
-    ],
-    "alolan-golem": [
-        16,
-        4
-    ],
-    "ponyta": [
-        7
-    ],
-    "galarian-ponyta": [
-        15
-    ],
-    "rapidash": [
-        7
-    ],
-    "galarian-rapidash": [
-        15,
-        5
-    ],
-    "slowpoke": [
-        18,
-        15
-    ],
-    "galarian-slowpoke": [
-        15
-    ],
-    "slowbro": [
-        18,
-        15
-    ],
-    "mega-slowbro": [
-        18,
-        15
-    ],
-    "galarian-slowbro": [
-        14,
-        15
-    ],
-    "magnemite": [
-        4,
-        17
-    ],
-    "magneton": [
-        4,
-        17
-    ],
-    "farfetchd": [
-        13,
-        8
-    ],
-    "galarian-farfetch'd": [
-        6
-    ],
-    "doduo": [
-        13,
-        8
-    ],
-    "dodrio": [
-        13,
-        8
-    ],
-    "seel": [
-        18
-    ],
-    "dewgong": [
-        18,
-        12
-    ],
-    "grimer": [
-        14
-    ],
-    "alolan-grimer": [
-        14,
-        2
-    ],
-    "muk": [
-        14
-    ],
-    "alolan-muk": [
-        14,
-        2
-    ],
-    "shellder": [
-        18
-    ],
-    "cloyster": [
-        18,
-        12
-    ],
-    "gastly": [
-        9,
-        14
-    ],
-    "haunter": [
-        9,
-        14
-    ],
-    "gengar": [
-        9,
-        14
-    ],
-    "mega-gengar": [
-        9,
-        14
-    ],
-    "onix": [
-        16,
-        11
-    ],
-    "drowzee": [
-        15
-    ],
-    "hypno": [
-        15
-    ],
-    "krabby": [
-        18
-    ],
-    "kingler": [
-        18
-    ],
-    "voltorb": [
-        4
-    ],
-    "hisuian-voltorb": [
-        4,
-        10
-    ],
-    "electrode": [
-        4
-    ],
-    "hisuian-electrode": [
-        4,
-        10
-    ],
-    "exeggcute": [
-        10,
-        15
-    ],
-    "exeggutor": [
-        10,
-        15
-    ],
-    "alolan-exeggutor": [
-        10,
-        3
-    ],
-    "cubone": [
-        11
-    ],
-    "marowak": [
-        11
-    ],
-    "alolan-marowak": [
-        7,
-        9
-    ],
-    "hitmonlee": [
-        6
-    ],
-    "hitmonchan": [
-        6
-    ],
-    "lickitung": [
-        13
-    ],
-    "koffing": [
-        14
-    ],
-    "weezing": [
-        14
-    ],
-    "galarian-weezing": [
-        14,
-        5
-    ],
-    "rhyhorn": [
-        11,
-        16
-    ],
-    "rhydon": [
-        11,
-        16
-    ],
-    "chansey": [
-        13
-    ],
-    "tangela": [
-        10
-    ],
-    "kangaskhan": [
-        13
-    ],
-    "mega-kangaskhan": [
-        13
-    ],
-    "horsea": [
-        18
-    ],
-    "seadra": [
-        18
-    ],
-    "goldeen": [
-        18
-    ],
-    "seaking": [
-        18
-    ],
-    "staryu": [
-        18
-    ],
-    "starmie": [
-        18,
-        15
-    ],
-    "mr-mime": [
-        15,
-        5
-    ],
-    "galarian-mr.-mime": [
-        12,
-        15
-    ],
-    "scyther": [
-        1,
-        8
-    ],
-    "jynx": [
-        12,
-        15
-    ],
-    "electabuzz": [
-        4
-    ],
-    "magmar": [
-        7
-    ],
-    "pinsir": [
-        1
-    ],
-    "mega-pinsir": [
-        1,
-        8
-    ],
-    "tauros": [
-        13
-    ],
-    "tauros-combat-breed": [
-        6
-    ],
-    "tauros-blaze-breed": [
-        6,
-        7
-    ],
-    "tauros-aqua-breed": [
-        6,
-        18
-    ],
-    "magikarp": [
-        18
-    ],
-    "gyarados": [
-        18,
-        8
-    ],
-    "mega-gyarados": [
-        18,
-        2
-    ],
-    "lapras": [
-        18,
-        12
-    ],
-    "ditto": [
-        13
-    ],
-    "eevee": [
-        13
-    ],
-    "partner-eevee": [
-        13
-    ],
-    "vaporeon": [
-        18
-    ],
-    "jolteon": [
-        4
-    ],
-    "flareon": [
-        7
-    ],
-    "porygon": [
-        13
-    ],
-    "omanyte": [
-        16,
-        18
-    ],
-    "omastar": [
-        16,
-        18
-    ],
-    "kabuto": [
-        16,
-        18
-    ],
-    "kabutops": [
-        16,
-        18
-    ],
-    "aerodactyl": [
-        16,
-        8
-    ],
-    "mega-aerodactyl": [
-        16,
-        8
-    ],
-    "snorlax": [
-        13
-    ],
-    "articuno": [
-        12,
-        8
-    ],
-    "galarian-articuno": [
-        15,
-        8
-    ],
-    "zapdos": [
-        4,
-        8
-    ],
-    "galarian-zapdos": [
-        6,
-        8
-    ],
-    "moltres": [
-        7,
-        8
-    ],
-    "galarian-moltres": [
-        2,
-        8
-    ],
-    "dratini": [
-        3
-    ],
-    "dragonair": [
-        3
-    ],
-    "dragonite": [
-        3,
-        8
-    ],
-    "mewtwo": [
-        15
-    ],
-    "mega-mewtwo-x": [
-        15,
-        6
-    ],
-    "mega-mewtwo-y": [
-        15
-    ],
-    "mew": [
-        15
-    ],
-    "chikorita": [
-        10
-    ],
-    "bayleef": [
-        10
-    ],
-    "meganium": [
-        10
-    ],
-    "cyndaquil": [
-        7
-    ],
-    "quilava": [
-        7
-    ],
-    "typhlosion": [
-        7
-    ],
-    "hisuian-typhlosion": [
-        7,
-        9
-    ],
-    "totodile": [
-        18
-    ],
-    "croconaw": [
-        18
-    ],
-    "feraligatr": [
-        18
-    ],
-    "sentret": [
-        13
-    ],
-    "furret": [
-        13
-    ],
-    "hoothoot": [
-        13,
-        8
-    ],
-    "noctowl": [
-        13,
-        8
-    ],
-    "ledyba": [
-        1,
-        8
-    ],
-    "ledian": [
-        1,
-        8
-    ],
-    "spinarak": [
-        1,
-        14
-    ],
-    "ariados": [
-        1,
-        14
-    ],
-    "crobat": [
-        14,
-        8
-    ],
-    "chinchou": [
-        18,
-        4
-    ],
-    "lanturn": [
-        18,
-        4
-    ],
-    "pichu": [
-        4
-    ],
-    "cleffa": [
-        5
-    ],
-    "igglybuff": [
-        13,
-        5
-    ],
-    "togepi": [
-        5
-    ],
-    "togetic": [
-        5,
-        8
-    ],
-    "natu": [
-        15,
-        8
-    ],
-    "xatu": [
-        15,
-        8
-    ],
-    "mareep": [
-        4
-    ],
-    "flaaffy": [
-        4
-    ],
-    "ampharos": [
-        4
-    ],
-    "mega-ampharos": [
-        4,
-        3
-    ],
-    "bellossom": [
-        10
-    ],
-    "marill": [
-        18,
-        5
-    ],
-    "azumarill": [
-        18,
-        5
-    ],
-    "sudowoodo": [
-        16
-    ],
-    "politoed": [
-        18
-    ],
-    "hoppip": [
-        10,
-        8
-    ],
-    "skiploom": [
-        10,
-        8
-    ],
-    "jumpluff": [
-        10,
-        8
-    ],
-    "aipom": [
-        13
-    ],
-    "sunkern": [
-        10
-    ],
-    "sunflora": [
-        10
-    ],
-    "yanma": [
-        1,
-        8
-    ],
-    "wooper": [
-        18,
-        11
-    ],
-    "paldean-wooper": [
-        14,
-        11
-    ],
-    "quagsire": [
-        18,
-        11
-    ],
-    "espeon": [
-        15
-    ],
-    "umbreon": [
-        2
-    ],
-    "murkrow": [
-        2,
-        8
-    ],
-    "slowking": [
-        18,
-        15
-    ],
-    "galarian-slowking": [
-        14,
-        15
-    ],
-    "misdreavus": [
-        9
-    ],
-    "unown": [
-        15
-    ],
-    "wobbuffet": [
-        15
-    ],
-    "girafarig": [
-        13,
-        15
-    ],
-    "pineco": [
-        1
-    ],
-    "forretress": [
-        1,
-        17
-    ],
-    "dunsparce": [
-        13
-    ],
-    "gligar": [
-        11,
-        8
-    ],
-    "steelix": [
-        17,
-        11
-    ],
-    "mega-steelix": [
-        17,
-        11
-    ],
-    "snubbull": [
-        5
-    ],
-    "granbull": [
-        5
-    ],
-    "qwilfish": [
-        18,
-        14
-    ],
-    "hisuian-qwilfish": [
-        2,
-        14
-    ],
-    "scizor": [
-        1,
-        17
-    ],
-    "mega-scizor": [
-        1,
-        17
-    ],
-    "shuckle": [
-        1,
-        16
-    ],
-    "heracross": [
-        1,
-        6
-    ],
-    "mega-heracross": [
-        1,
-        6
-    ],
-    "sneasel": [
-        2,
-        12
-    ],
-    "hisuian-sneasel": [
-        6,
-        14
-    ],
-    "teddiursa": [
-        13
-    ],
-    "ursaring": [
-        13
-    ],
-    "slugma": [
-        7
-    ],
-    "magcargo": [
-        7,
-        16
-    ],
-    "swinub": [
-        12,
-        11
-    ],
-    "piloswine": [
-        12,
-        11
-    ],
-    "corsola": [
-        18,
-        16
-    ],
-    "galarian-corsola": [
-        9
-    ],
-    "remoraid": [
-        18
-    ],
-    "octillery": [
-        18
-    ],
-    "delibird": [
-        12,
-        8
-    ],
-    "mantine": [
-        18,
-        8
-    ],
-    "skarmory": [
-        17,
-        8
-    ],
-    "houndour": [
-        2,
-        7
-    ],
-    "houndoom": [
-        2,
-        7
-    ],
-    "mega-houndoom": [
-        2,
-        7
-    ],
-    "kingdra": [
-        18,
-        3
-    ],
-    "phanpy": [
-        11
-    ],
-    "donphan": [
-        11
-    ],
-    "porygon2": [
-        13
-    ],
-    "stantler": [
-        13
-    ],
-    "smeargle": [
-        13
-    ],
-    "tyrogue": [
-        6
-    ],
-    "hitmontop": [
-        6
-    ],
-    "smoochum": [
-        12,
-        15
-    ],
-    "elekid": [
-        4
-    ],
-    "magby": [
-        7
-    ],
-    "miltank": [
-        13
-    ],
-    "blissey": [
-        13
-    ],
-    "raikou": [
-        4
-    ],
-    "entei": [
-        7
-    ],
-    "suicune": [
-        18
-    ],
-    "larvitar": [
-        16,
-        11
-    ],
-    "pupitar": [
-        16,
-        11
-    ],
-    "tyranitar": [
-        16,
-        2
-    ],
-    "mega-tyranitar": [
-        16,
-        2
-    ],
-    "lugia": [
-        15,
-        8
-    ],
-    "ho-oh": [
-        7,
-        8
-    ],
-    "celebi": [
-        15,
-        10
-    ],
-    "treecko": [
-        10
-    ],
-    "grovyle": [
-        10
-    ],
-    "sceptile": [
-        10
-    ],
-    "mega-sceptile": [
-        10,
-        3
-    ],
-    "torchic": [
-        7
-    ],
-    "combusken": [
-        7,
-        6
-    ],
-    "blaziken": [
-        7,
-        6
-    ],
-    "mega-blaziken": [
-        7,
-        6
-    ],
-    "mudkip": [
-        18
-    ],
-    "marshtomp": [
-        18,
-        11
-    ],
-    "swampert": [
-        18,
-        11
-    ],
-    "mega-swampert": [
-        18,
-        11
-    ],
-    "poochyena": [
-        2
-    ],
-    "mightyena": [
-        2
-    ],
-    "zigzagoon": [
-        13
-    ],
-    "galarian-zigzagoon": [
-        2,
-        13
-    ],
-    "linoone": [
-        13
-    ],
-    "galarian-linoone": [
-        2,
-        13
-    ],
-    "wurmple": [
-        1
-    ],
-    "silcoon": [
-        1
-    ],
-    "beautifly": [
-        1,
-        8
-    ],
-    "cascoon": [
-        1
-    ],
-    "dustox": [
-        1,
-        14
-    ],
-    "lotad": [
-        18,
-        10
-    ],
-    "lombre": [
-        18,
-        10
-    ],
-    "ludicolo": [
-        18,
-        10
-    ],
-    "seedot": [
-        10
-    ],
-    "nuzleaf": [
-        10,
-        2
-    ],
-    "shiftry": [
-        10,
-        2
-    ],
-    "taillow": [
-        13,
-        8
-    ],
-    "swellow": [
-        13,
-        8
-    ],
-    "wingull": [
-        18,
-        8
-    ],
-    "pelipper": [
-        18,
-        8
-    ],
-    "ralts": [
-        15,
-        5
-    ],
-    "kirlia": [
-        15,
-        5
-    ],
-    "gardevoir": [
-        15,
-        5
-    ],
-    "mega-gardevoir": [
-        15,
-        5
-    ],
-    "surskit": [
-        1,
-        18
-    ],
-    "masquerain": [
-        1,
-        8
-    ],
-    "shroomish": [
-        10
-    ],
-    "breloom": [
-        10,
-        6
-    ],
-    "slakoth": [
-        13
-    ],
-    "vigoroth": [
-        13
-    ],
-    "slaking": [
-        13
-    ],
-    "nincada": [
-        1,
-        11
-    ],
-    "ninjask": [
-        1,
-        8
-    ],
-    "shedinja": [
-        1,
-        9
-    ],
-    "whismur": [
-        13
-    ],
-    "loudred": [
-        13
-    ],
-    "exploud": [
-        13
-    ],
-    "makuhita": [
-        6
-    ],
-    "hariyama": [
-        6
-    ],
-    "azurill": [
-        13,
-        5
-    ],
-    "nosepass": [
-        16
-    ],
-    "skitty": [
-        13
-    ],
-    "delcatty": [
-        13
-    ],
-    "sableye": [
-        2,
-        9
-    ],
-    "mega-sableye": [
-        2,
-        9
-    ],
-    "mawile": [
-        17,
-        5
-    ],
-    "mega-mawile": [
-        17,
-        5
-    ],
-    "aron": [
-        17,
-        16
-    ],
-    "lairon": [
-        17,
-        16
-    ],
-    "aggron": [
-        17,
-        16
-    ],
-    "mega-aggron": [
-        17
-    ],
-    "meditite": [
-        6,
-        15
-    ],
-    "medicham": [
-        6,
-        15
-    ],
-    "mega-medicham": [
-        6,
-        15
-    ],
-    "electrike": [
-        4
-    ],
-    "manectric": [
-        4
-    ],
-    "mega-manectric": [
-        4
-    ],
-    "plusle": [
-        4
-    ],
-    "minun": [
-        4
-    ],
-    "volbeat": [
-        1
-    ],
-    "illumise": [
-        1
-    ],
-    "roselia": [
-        10,
-        14
-    ],
-    "gulpin": [
-        14
-    ],
-    "swalot": [
-        14
-    ],
-    "carvanha": [
-        18,
-        2
-    ],
-    "sharpedo": [
-        18,
-        2
-    ],
-    "mega-sharpedo": [
-        18,
-        2
-    ],
-    "wailmer": [
-        18
-    ],
-    "wailord": [
-        18
-    ],
-    "numel": [
-        7,
-        11
-    ],
-    "camerupt": [
-        7,
-        11
-    ],
-    "mega-camerupt": [
-        7,
-        11
-    ],
-    "torkoal": [
-        7
-    ],
-    "spoink": [
-        15
-    ],
-    "grumpig": [
-        15
-    ],
-    "spinda": [
-        13
-    ],
-    "trapinch": [
-        11
-    ],
-    "vibrava": [
-        11,
-        3
-    ],
-    "flygon": [
-        11,
-        3
-    ],
-    "cacnea": [
-        10
-    ],
-    "cacturne": [
-        10,
-        2
-    ],
-    "swablu": [
-        13,
-        8
-    ],
-    "altaria": [
-        3,
-        8
-    ],
-    "mega-altaria": [
-        3,
-        5
-    ],
-    "zangoose": [
-        13
-    ],
-    "seviper": [
-        14
-    ],
-    "lunatone": [
-        16,
-        15
-    ],
-    "solrock": [
-        16,
-        15
-    ],
-    "barboach": [
-        18,
-        11
-    ],
-    "whiscash": [
-        18,
-        11
-    ],
-    "corphish": [
-        18
-    ],
-    "crawdaunt": [
-        18,
-        2
-    ],
-    "baltoy": [
-        11,
-        15
-    ],
-    "claydol": [
-        11,
-        15
-    ],
-    "lileep": [
-        16,
-        10
-    ],
-    "cradily": [
-        16,
-        10
-    ],
-    "anorith": [
-        16,
-        1
-    ],
-    "armaldo": [
-        16,
-        1
-    ],
-    "feebas": [
-        18
-    ],
-    "milotic": [
-        18
-    ],
-    "castform": [
-        13
-    ],
-    "castform-sunny-form": [
-        7
-    ],
-    "castform-rainy-form": [
-        18
-    ],
-    "castform-snowy-form": [
-        12
-    ],
-    "kecleon": [
-        13
-    ],
-    "shuppet": [
-        9
-    ],
-    "banette": [
-        9
-    ],
-    "mega-banette": [
-        9
-    ],
-    "duskull": [
-        9
-    ],
-    "dusclops": [
-        9
-    ],
-    "tropius": [
-        10,
-        8
-    ],
-    "chimecho": [
-        15
-    ],
-    "absol": [
-        2
-    ],
-    "mega-absol": [
-        2
-    ],
-    "wynaut": [
-        15
-    ],
-    "snorunt": [
-        12
-    ],
-    "glalie": [
-        12
-    ],
-    "mega-glalie": [
-        12
-    ],
-    "spheal": [
-        12,
-        18
-    ],
-    "sealeo": [
-        12,
-        18
-    ],
-    "walrein": [
-        12,
-        18
-    ],
-    "clamperl": [
-        18
-    ],
-    "huntail": [
-        18
-    ],
-    "gorebyss": [
-        18
-    ],
-    "relicanth": [
-        18,
-        16
-    ],
-    "luvdisc": [
-        18
-    ],
-    "bagon": [
-        3
-    ],
-    "shelgon": [
-        3
-    ],
-    "salamence": [
-        3,
-        8
-    ],
-    "mega-salamence": [
-        3,
-        8
-    ],
-    "beldum": [
-        17,
-        15
-    ],
-    "metang": [
-        17,
-        15
-    ],
-    "metagross": [
-        17,
-        15
-    ],
-    "mega-metagross": [
-        17,
-        15
-    ],
-    "regirock": [
-        16
-    ],
-    "regice": [
-        12
-    ],
-    "registeel": [
-        17
-    ],
-    "latias": [
-        3,
-        15
-    ],
-    "mega-latias": [
-        3,
-        15
-    ],
-    "latios": [
-        3,
-        15
-    ],
-    "mega-latios": [
-        3,
-        15
-    ],
-    "kyogre": [
-        18
-    ],
-    "primal-kyogre": [
-        18
-    ],
-    "groudon": [
-        11
-    ],
-    "primal-groudon": [
-        11,
-        7
-    ],
-    "rayquaza": [
-        3,
-        8
-    ],
-    "mega-rayquaza": [
-        3,
-        8
-    ],
-    "jirachi": [
-        17,
-        15
-    ],
-    "deoxys-normal-forme": [
-        15
-    ],
-    "deoxys-attack-forme": [
-        15
-    ],
-    "deoxys-defense-forme": [
-        15
-    ],
-    "deoxys-speed-forme": [
-        15
-    ],
-    "turtwig": [
-        10
-    ],
-    "grotle": [
-        10
-    ],
-    "torterra": [
-        10,
-        11
-    ],
-    "chimchar": [
-        7
-    ],
-    "monferno": [
-        7,
-        6
-    ],
-    "infernape": [
-        7,
-        6
-    ],
-    "piplup": [
-        18
-    ],
-    "prinplup": [
-        18
-    ],
-    "empoleon": [
-        18,
-        17
-    ],
-    "starly": [
-        13,
-        8
-    ],
-    "staravia": [
-        13,
-        8
-    ],
-    "staraptor": [
-        13,
-        8
-    ],
-    "bidoof": [
-        13
-    ],
-    "bibarel": [
-        13,
-        18
-    ],
-    "kricketot": [
-        1
-    ],
-    "kricketune": [
-        1
-    ],
-    "shinx": [
-        4
-    ],
-    "luxio": [
-        4
-    ],
-    "luxray": [
-        4
-    ],
-    "budew": [
-        10,
-        14
-    ],
-    "roserade": [
-        10,
-        14
-    ],
-    "cranidos": [
-        16
-    ],
-    "rampardos": [
-        16
-    ],
-    "shieldon": [
-        16,
-        17
-    ],
-    "bastiodon": [
-        16,
-        17
-    ],
-    "burmy-plant-cloak": [
-        1
-    ],
-    "burmy-sandy-cloak": [
-        1
-    ],
-    "burmy-trash-cloak": [
-        1
-    ],
-    "wormadam-plant-cloak": [
-        1,
-        10
-    ],
-    "wormadam-sandy-cloak": [
-        1,
-        11
-    ],
-    "wormadam-trash-cloak": [
-        1,
-        17
-    ],
-    "mothim": [
-        1,
-        8
-    ],
-    "combee": [
-        1,
-        8
-    ],
-    "vespiquen": [
-        1,
-        8
-    ],
-    "pachirisu": [
-        4
-    ],
-    "buizel": [
-        18
-    ],
-    "floatzel": [
-        18
-    ],
-    "cherubi": [
-        10
-    ],
-    "cherrim": [
-        10
-    ],
-    "shellos": [
-        18
-    ],
-    "gastrodon": [
-        18,
-        11
-    ],
-    "ambipom": [
-        13
-    ],
-    "drifloon": [
-        9,
-        8
-    ],
-    "drifblim": [
-        9,
-        8
-    ],
-    "buneary": [
-        13
-    ],
-    "lopunny": [
-        13
-    ],
-    "mega-lopunny": [
-        13,
-        6
-    ],
-    "mismagius": [
-        9
-    ],
-    "honchkrow": [
-        2,
-        8
-    ],
-    "glameow": [
-        13
-    ],
-    "purugly": [
-        13
-    ],
-    "chingling": [
-        15
-    ],
-    "stunky": [
-        14,
-        2
-    ],
-    "skuntank": [
-        14,
-        2
-    ],
-    "bronzor": [
-        17,
-        15
-    ],
-    "bronzong": [
-        17,
-        15
-    ],
-    "bonsly": [
-        16
-    ],
-    "mime-jr": [
-        15,
-        5
-    ],
-    "happiny": [
-        13
-    ],
-    "chatot": [
-        13,
-        8
-    ],
-    "spiritomb": [
-        9,
-        2
-    ],
-    "gible": [
-        3,
-        11
-    ],
-    "gabite": [
-        3,
-        11
-    ],
-    "garchomp": [
-        3,
-        11
-    ],
-    "mega-garchomp": [
-        3,
-        11
-    ],
-    "munchlax": [
-        13
-    ],
-    "riolu": [
-        6
-    ],
-    "lucario": [
-        6,
-        17
-    ],
-    "mega-lucario": [
-        6,
-        17
-    ],
-    "hippopotas": [
-        11
-    ],
-    "hippowdon": [
-        11
-    ],
-    "skorupi": [
-        14,
-        1
-    ],
-    "drapion": [
-        14,
-        2
-    ],
-    "croagunk": [
-        14,
-        6
-    ],
-    "toxicroak": [
-        14,
-        6
-    ],
-    "carnivine": [
-        10
-    ],
-    "finneon": [
-        18
-    ],
-    "lumineon": [
-        18
-    ],
-    "mantyke": [
-        18,
-        8
-    ],
-    "snover": [
-        10,
-        12
-    ],
-    "abomasnow": [
-        10,
-        12
-    ],
-    "mega-abomasnow": [
-        10,
-        12
-    ],
-    "weavile": [
-        2,
-        12
-    ],
-    "magnezone": [
-        4,
-        17
-    ],
-    "lickilicky": [
-        13
-    ],
-    "rhyperior": [
-        11,
-        16
-    ],
-    "tangrowth": [
-        10
-    ],
-    "electivire": [
-        4
-    ],
-    "magmortar": [
-        7
-    ],
-    "togekiss": [
-        5,
-        8
-    ],
-    "yanmega": [
-        1,
-        8
-    ],
-    "leafeon": [
-        10
-    ],
-    "glaceon": [
-        12
-    ],
-    "gliscor": [
-        11,
-        8
-    ],
-    "mamoswine": [
-        12,
-        11
-    ],
-    "porygon-z": [
-        13
-    ],
-    "gallade": [
-        15,
-        6
-    ],
-    "mega-gallade": [
-        15,
-        6
-    ],
-    "probopass": [
-        16,
-        17
-    ],
-    "dusknoir": [
-        9
-    ],
-    "froslass": [
-        12,
-        9
-    ],
-    "rotom": [
-        4,
-        9
-    ],
-    "rotom-heat-rotom": [
-        4,
-        7
-    ],
-    "rotom-wash-rotom": [
-        4,
-        18
-    ],
-    "rotom-frost-rotom": [
-        4,
-        12
-    ],
-    "rotom-fan-rotom": [
-        4,
-        8
-    ],
-    "rotom-mow-rotom": [
-        4,
-        10
-    ],
-    "uxie": [
-        15
-    ],
-    "mesprit": [
-        15
-    ],
-    "azelf": [
-        15
-    ],
-    "dialga": [
-        17,
-        3
-    ],
-    "dialga-origin-forme": [
-        17,
-        3
-    ],
-    "palkia": [
-        18,
-        3
-    ],
-    "palkia-origin-forme": [
-        18,
-        3
-    ],
-    "heatran": [
-        7,
-        17
-    ],
-    "regigigas": [
-        13
-    ],
-    "giratina-altered-forme": [
-        9,
-        3
-    ],
-    "giratina-origin-forme": [
-        9,
-        3
-    ],
-    "cresselia": [
-        15
-    ],
-    "phione": [
-        18
-    ],
-    "manaphy": [
-        18
-    ],
-    "darkrai": [
-        2
-    ],
-    "shaymin-land-forme": [
-        10
-    ],
-    "shaymin-sky-forme": [
-        10,
-        8
-    ],
-    "arceus": [
-        13
-    ],
-    "victini": [
-        15,
-        7
-    ],
-    "snivy": [
-        10
-    ],
-    "servine": [
-        10
-    ],
-    "serperior": [
-        10
-    ],
-    "tepig": [
-        7
-    ],
-    "pignite": [
-        7,
-        6
-    ],
-    "emboar": [
-        7,
-        6
-    ],
-    "oshawott": [
-        18
-    ],
-    "dewott": [
-        18
-    ],
-    "samurott": [
-        18
-    ],
-    "hisuian-samurott": [
-        18,
-        2
-    ],
-    "patrat": [
-        13
-    ],
-    "watchog": [
-        13
-    ],
-    "lillipup": [
-        13
-    ],
-    "herdier": [
-        13
-    ],
-    "stoutland": [
-        13
-    ],
-    "purrloin": [
-        2
-    ],
-    "liepard": [
-        2
-    ],
-    "pansage": [
-        10
-    ],
-    "simisage": [
-        10
-    ],
-    "pansear": [
-        7
-    ],
-    "simisear": [
-        7
-    ],
-    "panpour": [
-        18
-    ],
-    "simipour": [
-        18
-    ],
-    "munna": [
-        15
-    ],
-    "musharna": [
-        15
-    ],
-    "pidove": [
-        13,
-        8
-    ],
-    "tranquill": [
-        13,
-        8
-    ],
-    "unfezant": [
-        13,
-        8
-    ],
-    "blitzle": [
-        4
-    ],
-    "zebstrika": [
-        4
-    ],
-    "roggenrola": [
-        16
-    ],
-    "boldore": [
-        16
-    ],
-    "gigalith": [
-        16
-    ],
-    "woobat": [
-        15,
-        8
-    ],
-    "swoobat": [
-        15,
-        8
-    ],
-    "drilbur": [
-        11
-    ],
-    "excadrill": [
-        11,
-        17
-    ],
-    "audino": [
-        13
-    ],
-    "mega-audino": [
-        13,
-        5
-    ],
-    "timburr": [
-        6
-    ],
-    "gurdurr": [
-        6
-    ],
-    "conkeldurr": [
-        6
-    ],
-    "tympole": [
-        18
-    ],
-    "palpitoad": [
-        18,
-        11
-    ],
-    "seismitoad": [
-        18,
-        11
-    ],
-    "throh": [
-        6
-    ],
-    "sawk": [
-        6
-    ],
-    "sewaddle": [
-        1,
-        10
-    ],
-    "swadloon": [
-        1,
-        10
-    ],
-    "leavanny": [
-        1,
-        10
-    ],
-    "venipede": [
-        1,
-        14
-    ],
-    "whirlipede": [
-        1,
-        14
-    ],
-    "scolipede": [
-        1,
-        14
-    ],
-    "cottonee": [
-        10,
-        5
-    ],
-    "whimsicott": [
-        10,
-        5
-    ],
-    "petilil": [
-        10
-    ],
-    "lilligant": [
-        10
-    ],
-    "hisuian-lilligant": [
-        10,
-        6
-    ],
-    "basculin-red-striped-form": [
-        18
-    ],
-    "basculin-blue-striped-form": [
-        18
-    ],
-    "basculin-white-striped-form": [
-        18
-    ],
-    "sandile": [
-        11,
-        2
-    ],
-    "krokorok": [
-        11,
-        2
-    ],
-    "krookodile": [
-        11,
-        2
-    ],
-    "darumaka": [
-        7
-    ],
-    "galarian-darumaka": [
-        12
-    ],
-    "darmanitan-standard-mode": [
-        7
-    ],
-    "darmanitan-zen-mode": [
-        7,
-        15
-    ],
-    "galarian-standard-mode": [
-        12
-    ],
-    "galarian-zen-mode": [
-        12,
-        7
-    ],
-    "maractus": [
-        10
-    ],
-    "dwebble": [
-        1,
-        16
-    ],
-    "crustle": [
-        1,
-        16
-    ],
-    "scraggy": [
-        2,
-        6
-    ],
-    "scrafty": [
-        2,
-        6
-    ],
-    "sigilyph": [
-        15,
-        8
-    ],
-    "yamask": [
-        9
-    ],
-    "galarian-yamask": [
-        11,
-        9
-    ],
-    "cofagrigus": [
-        9
-    ],
-    "tirtouga": [
-        18,
-        16
-    ],
-    "carracosta": [
-        18,
-        16
-    ],
-    "archen": [
-        16,
-        8
-    ],
-    "archeops": [
-        16,
-        8
-    ],
-    "trubbish": [
-        14
-    ],
-    "garbodor": [
-        14
-    ],
-    "zorua": [
-        2
-    ],
-    "hisuian-zorua": [
-        13,
-        9
-    ],
-    "zoroark": [
-        2
-    ],
-    "hisuian-zoroark": [
-        13,
-        9
-    ],
-    "minccino": [
-        13
-    ],
-    "cinccino": [
-        13
-    ],
-    "gothita": [
-        15
-    ],
-    "gothorita": [
-        15
-    ],
-    "gothitelle": [
-        15
-    ],
-    "solosis": [
-        15
-    ],
-    "duosion": [
-        15
-    ],
-    "reuniclus": [
-        15
-    ],
-    "ducklett": [
-        18,
-        8
-    ],
-    "swanna": [
-        18,
-        8
-    ],
-    "vanillite": [
-        12
-    ],
-    "vanillish": [
-        12
-    ],
-    "vanilluxe": [
-        12
-    ],
-    "deerling": [
-        13,
-        10
-    ],
-    "sawsbuck": [
-        13,
-        10
-    ],
-    "emolga": [
-        4,
-        8
-    ],
-    "karrablast": [
-        1
-    ],
-    "escavalier": [
-        1,
-        17
-    ],
-    "foongus": [
-        10,
-        14
-    ],
-    "amoonguss": [
-        10,
-        14
-    ],
-    "frillish": [
-        18,
-        9
-    ],
-    "jellicent": [
-        18,
-        9
-    ],
-    "alomomola": [
-        18
-    ],
-    "joltik": [
-        1,
-        4
-    ],
-    "galvantula": [
-        1,
-        4
-    ],
-    "ferroseed": [
-        10,
-        17
-    ],
-    "ferrothorn": [
-        10,
-        17
-    ],
-    "klink": [
-        17
-    ],
-    "klang": [
-        17
-    ],
-    "klinklang": [
-        17
-    ],
-    "tynamo": [
-        4
-    ],
-    "eelektrik": [
-        4
-    ],
-    "eelektross": [
-        4
-    ],
-    "elgyem": [
-        15
-    ],
-    "beheeyem": [
-        15
-    ],
-    "litwick": [
-        9,
-        7
-    ],
-    "lampent": [
-        9,
-        7
-    ],
-    "chandelure": [
-        9,
-        7
-    ],
-    "axew": [
-        3
-    ],
-    "fraxure": [
-        3
-    ],
-    "haxorus": [
-        3
-    ],
-    "cubchoo": [
-        12
-    ],
-    "beartic": [
-        12
-    ],
-    "cryogonal": [
-        12
-    ],
-    "shelmet": [
-        1
-    ],
-    "accelgor": [
-        1
-    ],
-    "stunfisk": [
-        11,
-        4
-    ],
-    "galarian-stunfisk": [
-        11,
-        17
-    ],
-    "mienfoo": [
-        6
-    ],
-    "mienshao": [
-        6
-    ],
-    "druddigon": [
-        3
-    ],
-    "golett": [
-        11,
-        9
-    ],
-    "golurk": [
-        11,
-        9
-    ],
-    "pawniard": [
-        2,
-        17
-    ],
-    "bisharp": [
-        2,
-        17
-    ],
-    "bouffalant": [
-        13
-    ],
-    "rufflet": [
-        13,
-        8
-    ],
-    "braviary": [
-        13,
-        8
-    ],
-    "hisuian-braviary": [
-        15,
-        8
-    ],
-    "vullaby": [
-        2,
-        8
-    ],
-    "mandibuzz": [
-        2,
-        8
-    ],
-    "heatmor": [
-        7
-    ],
-    "durant": [
-        1,
-        17
-    ],
-    "deino": [
-        2,
-        3
-    ],
-    "zweilous": [
-        2,
-        3
-    ],
-    "hydreigon": [
-        2,
-        3
-    ],
-    "larvesta": [
-        1,
-        7
-    ],
-    "volcarona": [
-        1,
-        7
-    ],
-    "cobalion": [
-        17,
-        6
-    ],
-    "terrakion": [
-        16,
-        6
-    ],
-    "virizion": [
-        10,
-        6
-    ],
-    "tornadus-incarnate-forme": [
-        8
-    ],
-    "tornadus-therian-forme": [
-        8
-    ],
-    "thundurus-incarnate-forme": [
-        4,
-        8
-    ],
-    "thundurus-therian-forme": [
-        4,
-        8
-    ],
-    "reshiram": [
-        3,
-        7
-    ],
-    "zekrom": [
-        3,
-        4
-    ],
-    "landorus-incarnate-forme": [
-        11,
-        8
-    ],
-    "landorus-therian-forme": [
-        11,
-        8
-    ],
-    "kyurem": [
-        3,
-        12
-    ],
-    "white-kyurem": [
-        3,
-        12
-    ],
-    "black-kyurem": [
-        3,
-        12
-    ],
-    "keldeo-ordinary-form": [
-        18,
-        6
-    ],
-    "keldeo-resolute-form": [
-        18,
-        6
-    ],
-    "meloetta-aria-forme": [
-        13,
-        15
-    ],
-    "meloetta-pirouette-forme": [
-        13,
-        6
-    ],
-    "genesect": [
-        1,
-        17
-    ],
-    "chespin": [
-        10
-    ],
-    "quilladin": [
-        10
-    ],
-    "chesnaught": [
-        10,
-        6
-    ],
-    "fennekin": [
-        7
-    ],
-    "braixen": [
-        7
-    ],
-    "delphox": [
-        7,
-        15
-    ],
-    "froakie": [
-        18
-    ],
-    "frogadier": [
-        18
-    ],
-    "greninja": [
-        18,
-        2
-    ],
-    "ash-greninja": [
-        18,
-        2
-    ],
-    "bunnelby": [
-        13
-    ],
-    "diggersby": [
-        13,
-        11
-    ],
-    "fletchling": [
-        13,
-        8
-    ],
-    "fletchinder": [
-        7,
-        8
-    ],
-    "talonflame": [
-        7,
-        8
-    ],
-    "scatterbug": [
-        1
-    ],
-    "spewpa": [
-        1
-    ],
-    "vivillon": [
-        1,
-        8
-    ],
-    "litleo": [
-        7,
-        13
-    ],
-    "pyroar": [
-        7,
-        13
-    ],
-    "flabebe": [
-        5
-    ],
-    "floette": [
-        5
-    ],
-    "florges": [
-        5
-    ],
-    "skiddo": [
-        10
-    ],
-    "gogoat": [
-        10
-    ],
-    "pancham": [
-        6
-    ],
-    "pangoro": [
-        6,
-        2
-    ],
-    "furfrou": [
-        13
-    ],
-    "espurr": [
-        15
-    ],
-    "meowstic-male": [
-        15
-    ],
-    "meowstic-female": [
-        15
-    ],
-    "honedge": [
-        17,
-        9
-    ],
-    "doublade": [
-        17,
-        9
-    ],
-    "aegislash-shield-forme": [
-        17,
-        9
-    ],
-    "aegislash-blade-forme": [
-        17,
-        9
-    ],
-    "spritzee": [
-        5
-    ],
-    "aromatisse": [
-        5
-    ],
-    "swirlix": [
-        5
-    ],
-    "slurpuff": [
-        5
-    ],
-    "inkay": [
-        2,
-        15
-    ],
-    "malamar": [
-        2,
-        15
-    ],
-    "binacle": [
-        16,
-        18
-    ],
-    "barbaracle": [
-        16,
-        18
-    ],
-    "skrelp": [
-        14,
-        18
-    ],
-    "dragalge": [
-        14,
-        3
-    ],
-    "clauncher": [
-        18
-    ],
-    "clawitzer": [
-        18
-    ],
-    "helioptile": [
-        4,
-        13
-    ],
-    "heliolisk": [
-        4,
-        13
-    ],
-    "tyrunt": [
-        16,
-        3
-    ],
-    "tyrantrum": [
-        16,
-        3
-    ],
-    "amaura": [
-        16,
-        12
-    ],
-    "aurorus": [
-        16,
-        12
-    ],
-    "sylveon": [
-        5
-    ],
-    "hawlucha": [
-        6,
-        8
-    ],
-    "dedenne": [
-        4,
-        5
-    ],
-    "carbink": [
-        16,
-        5
-    ],
-    "goomy": [
-        3
-    ],
-    "sliggoo": [
-        3
-    ],
-    "hisuian-sliggoo": [
-        17,
-        3
-    ],
-    "goodra": [
-        3
-    ],
-    "hisuian-goodra": [
-        17,
-        3
-    ],
-    "klefki": [
-        17,
-        5
-    ],
-    "phantump": [
-        9,
-        10
-    ],
-    "trevenant": [
-        9,
-        10
-    ],
-    "pumpkaboo-average-size": [
-        9,
-        10
-    ],
-    "pumpkaboo-small-size": [
-        9,
-        10
-    ],
-    "pumpkaboo-large-size": [
-        9,
-        10
-    ],
-    "pumpkaboo-super-size": [
-        9,
-        10
-    ],
-    "gourgeist-average-size": [
-        9,
-        10
-    ],
-    "gourgeist-small-size": [
-        9,
-        10
-    ],
-    "gourgeist-large-size": [
-        9,
-        10
-    ],
-    "gourgeist-super-size": [
-        9,
-        10
-    ],
-    "bergmite": [
-        12
-    ],
-    "avalugg": [
-        12
-    ],
-    "hisuian-avalugg": [
-        12,
-        16
-    ],
-    "noibat": [
-        8,
-        3
-    ],
-    "noivern": [
-        8,
-        3
-    ],
-    "xerneas": [
-        5
-    ],
-    "yveltal": [
-        2,
-        8
-    ],
-    "zygarde-50%-forme": [
-        3,
-        11
-    ],
-    "zygarde-10%-forme": [
-        3,
-        11
-    ],
-    "zygarde-complete-forme": [
-        3,
-        11
-    ],
-    "diancie": [
-        16,
-        5
-    ],
-    "mega-diancie": [
-        16,
-        5
-    ],
-    "hoopa-hoopa-confined": [
-        15,
-        9
-    ],
-    "hoopa-hoopa-unbound": [
-        15,
-        2
-    ],
-    "volcanion": [
-        7,
-        18
-    ],
-    "rowlet": [
-        10,
-        8
-    ],
-    "dartrix": [
-        10,
-        8
-    ],
-    "decidueye": [
-        10,
-        9
-    ],
-    "hisuian-decidueye": [
-        10,
-        6
-    ],
-    "litten": [
-        7
-    ],
-    "torracat": [
-        7
-    ],
-    "incineroar": [
-        7,
-        2
-    ],
-    "popplio": [
-        18
-    ],
-    "brionne": [
-        18
-    ],
-    "primarina": [
-        18,
-        5
-    ],
-    "pikipek": [
-        13,
-        8
-    ],
-    "trumbeak": [
-        13,
-        8
-    ],
-    "toucannon": [
-        13,
-        8
-    ],
-    "yungoos": [
-        13
-    ],
-    "gumshoos": [
-        13
-    ],
-    "grubbin": [
-        1
-    ],
-    "charjabug": [
-        1,
-        4
-    ],
-    "vikavolt": [
-        1,
-        4
-    ],
-    "crabrawler": [
-        6
-    ],
-    "crabominable": [
-        6,
-        12
-    ],
-    "oricorio-baile-style": [
-        7,
-        8
-    ],
-    "oricorio-pom-pom-style": [
-        4,
-        8
-    ],
-    "oricorio-pa'u-style": [
-        15,
-        8
-    ],
-    "oricorio-sensu-style": [
-        9,
-        8
-    ],
-    "cutiefly": [
-        1,
-        5
-    ],
-    "ribombee": [
-        1,
-        5
-    ],
-    "rockruff": [
-        16
-    ],
-    "rockruff-own-tempo-rockruff": [
-        16
-    ],
-    "lycanroc-midday-form": [
-        16
-    ],
-    "lycanroc-midnight-form": [
-        16
-    ],
-    "lycanroc-dusk-form": [
-        16
-    ],
-    "wishiwashi-solo-form": [
-        18
-    ],
-    "wishiwashi-school-form": [
-        18
-    ],
-    "mareanie": [
-        14,
-        18
-    ],
-    "toxapex": [
-        14,
-        18
-    ],
-    "mudbray": [
-        11
-    ],
-    "mudsdale": [
-        11
-    ],
-    "dewpider": [
-        18,
-        1
-    ],
-    "araquanid": [
-        18,
-        1
-    ],
-    "fomantis": [
-        10
-    ],
-    "lurantis": [
-        10
-    ],
-    "morelull": [
-        10,
-        5
-    ],
-    "shiinotic": [
-        10,
-        5
-    ],
-    "salandit": [
-        14,
-        7
-    ],
-    "salazzle": [
-        14,
-        7
-    ],
-    "stufful": [
-        13,
-        6
-    ],
-    "bewear": [
-        13,
-        6
-    ],
-    "bounsweet": [
-        10
-    ],
-    "steenee": [
-        10
-    ],
-    "tsareena": [
-        10
-    ],
-    "comfey": [
-        5
-    ],
-    "oranguru": [
-        13,
-        15
-    ],
-    "passimian": [
-        6
-    ],
-    "wimpod": [
-        1,
-        18
-    ],
-    "golisopod": [
-        1,
-        18
-    ],
-    "sandygast": [
-        9,
-        11
-    ],
-    "palossand": [
-        9,
-        11
-    ],
-    "pyukumuku": [
-        18
-    ],
-    "type-null": [
-        13
-    ],
-    "silvally": [
-        13
-    ],
-    "minior-meteor-form": [
-        16,
-        8
-    ],
-    "minior-core-form": [
-        16,
-        8
-    ],
-    "komala": [
-        13
-    ],
-    "turtonator": [
-        7,
-        3
-    ],
-    "togedemaru": [
-        4,
-        17
-    ],
-    "mimikyu": [
-        9,
-        5
-    ],
-    "bruxish": [
-        18,
-        15
-    ],
-    "drampa": [
-        13,
-        3
-    ],
-    "dhelmise": [
-        9,
-        10
-    ],
-    "jangmo-o": [
-        3
-    ],
-    "hakamo-o": [
-        3,
-        6
-    ],
-    "kommo-o": [
-        3,
-        6
-    ],
-    "tapu-koko": [
-        4,
-        5
-    ],
-    "tapu-lele": [
-        15,
-        5
-    ],
-    "tapu-bulu": [
-        10,
-        5
-    ],
-    "tapu-fini": [
-        18,
-        5
-    ],
-    "cosmog": [
-        15
-    ],
-    "cosmoem": [
-        15
-    ],
-    "solgaleo": [
-        15,
-        17
-    ],
-    "lunala": [
-        15,
-        9
-    ],
-    "nihilego": [
-        16,
-        14
-    ],
-    "buzzwole": [
-        1,
-        6
-    ],
-    "pheromosa": [
-        1,
-        6
-    ],
-    "xurkitree": [
-        4
-    ],
-    "celesteela": [
-        17,
-        8
-    ],
-    "kartana": [
-        10,
-        17
-    ],
-    "guzzlord": [
-        2,
-        3
-    ],
-    "necrozma": [
-        15
-    ],
-    "dusk-mane-necrozma": [
-        15,
-        17
-    ],
-    "dawn-wings-necrozma": [
-        15,
-        9
-    ],
-    "ultra-necrozma": [
-        15,
-        3
-    ],
-    "magearna": [
-        17,
-        5
-    ],
-    "marshadow": [
-        6,
-        9
-    ],
-    "poipole": [
-        14
-    ],
-    "naganadel": [
-        14,
-        3
-    ],
-    "stakataka": [
-        16,
-        17
-    ],
-    "blacephalon": [
-        7,
-        9
-    ],
-    "zeraora": [
-        4
-    ],
-    "meltan": [
-        17
-    ],
-    "melmetal": [
-        17
-    ],
-    "grookey": [
-        10
-    ],
-    "thwackey": [
-        10
-    ],
-    "rillaboom": [
-        10
-    ],
-    "scorbunny": [
-        7
-    ],
-    "raboot": [
-        7
-    ],
-    "cinderace": [
-        7
-    ],
-    "sobble": [
-        18
-    ],
-    "drizzile": [
-        18
-    ],
-    "inteleon": [
-        18
-    ],
-    "skwovet": [
-        13
-    ],
-    "greedent": [
-        13
-    ],
-    "rookidee": [
-        8
-    ],
-    "corvisquire": [
-        8
-    ],
-    "corviknight": [
-        8,
-        17
-    ],
-    "blipbug": [
-        1
-    ],
-    "dottler": [
-        1,
-        15
-    ],
-    "orbeetle": [
-        1,
-        15
-    ],
-    "nickit": [
-        2
-    ],
-    "thievul": [
-        2
-    ],
-    "gossifleur": [
-        10
-    ],
-    "eldegoss": [
-        10
-    ],
-    "wooloo": [
-        13
-    ],
-    "dubwool": [
-        13
-    ],
-    "chewtle": [
-        18
-    ],
-    "drednaw": [
-        18,
-        16
-    ],
-    "yamper": [
-        4
-    ],
-    "boltund": [
-        4
-    ],
-    "rolycoly": [
-        16
-    ],
-    "carkol": [
-        16,
-        7
-    ],
-    "coalossal": [
-        16,
-        7
-    ],
-    "applin": [
-        10,
-        3
-    ],
-    "flapple": [
-        10,
-        3
-    ],
-    "appletun": [
-        10,
-        3
-    ],
-    "silicobra": [
-        11
-    ],
-    "sandaconda": [
-        11
-    ],
-    "cramorant": [
-        8,
-        18
-    ],
-    "arrokuda": [
-        18
-    ],
-    "barraskewda": [
-        18
-    ],
-    "toxel": [
-        4,
-        14
-    ],
-    "toxtricity-amped-form": [
-        4,
-        14
-    ],
-    "toxtricity-low-key-form": [
-        4,
-        14
-    ],
-    "sizzlipede": [
-        7,
-        1
-    ],
-    "centiskorch": [
-        7,
-        1
-    ],
-    "clobbopus": [
-        6
-    ],
-    "grapploct": [
-        6
-    ],
-    "sinistea": [
-        9
-    ],
-    "polteageist": [
-        9
-    ],
-    "hatenna": [
-        15
-    ],
-    "hattrem": [
-        15
-    ],
-    "hatterene": [
-        15,
-        5
-    ],
-    "impidimp": [
-        2,
-        5
-    ],
-    "morgrem": [
-        2,
-        5
-    ],
-    "grimmsnarl": [
-        2,
-        5
-    ],
-    "obstagoon": [
-        2,
-        13
-    ],
-    "perrserker": [
-        17
-    ],
-    "cursola": [
-        9
-    ],
-    "sirfetchd": [
-        6
-    ],
-    "mr-rime": [
-        12,
-        15
-    ],
-    "runerigus": [
-        11,
-        9
-    ],
-    "milcery": [
-        5
-    ],
-    "alcremie": [
-        5
-    ],
-    "falinks": [
-        6
-    ],
-    "pincurchin": [
-        4
-    ],
-    "snom": [
-        12,
-        1
-    ],
-    "frosmoth": [
-        12,
-        1
-    ],
-    "stonjourner": [
-        16
-    ],
-    "eiscue-ice-face": [
-        12
-    ],
-    "eiscue-noice-face": [
-        12
-    ],
-    "indeedee-male": [
-        15,
-        13
-    ],
-    "indeedee-female": [
-        15,
-        13
-    ],
-    "morpeko-full-belly-mode": [
-        4,
-        2
-    ],
-    "morpeko-hangry-mode": [
-        4,
-        2
-    ],
-    "cufant": [
-        17
-    ],
-    "copperajah": [
-        17
-    ],
-    "dracozolt": [
-        4,
-        3
-    ],
-    "arctozolt": [
-        4,
-        12
-    ],
-    "dracovish": [
-        18,
-        3
-    ],
-    "arctovish": [
-        18,
-        12
-    ],
-    "duraludon": [
-        17,
-        3
-    ],
-    "dreepy": [
-        3,
-        9
-    ],
-    "drakloak": [
-        3,
-        9
-    ],
-    "dragapult": [
-        3,
-        9
-    ],
-    "zacian-hero-of-many-battles": [
-        5
-    ],
-    "zacian-crowned-sword": [
-        5,
-        17
-    ],
-    "zamazenta-hero-of-many-battles": [
-        6
-    ],
-    "zamazenta-crowned-shield": [
-        6,
-        17
-    ],
-    "eternatus": [
-        14,
-        3
-    ],
-    "eternatus-eternamax": [
-        14,
-        3
-    ],
-    "kubfu": [
-        6
-    ],
-    "urshifu-single-strike-style": [
-        6,
-        2
-    ],
-    "urshifu-rapid-strike-style": [
-        6,
-        18
-    ],
-    "zarude": [
-        2,
-        10
-    ],
-    "regieleki": [
-        4
-    ],
-    "regidrago": [
-        3
-    ],
-    "glastrier": [
-        12
-    ],
-    "spectrier": [
-        9
-    ],
-    "calyrex": [
-        15,
-        10
-    ],
-    "calyrex-ice-rider": [
-        15,
-        12
-    ],
-    "calyrex-shadow-rider": [
-        15,
-        9
-    ],
-    "wyrdeer": [
-        13,
-        15
-    ],
-    "kleavor": [
-        1,
-        16
-    ],
-    "ursaluna": [
-        11,
-        13
-    ],
-    "ursaluna-bloodmoon": [
-        11,
-        13
-    ],
-    "basculegion-male": [
-        18,
-        9
-    ],
-    "basculegion-female": [
-        18,
-        9
-    ],
-    "sneasler": [
-        6,
-        14
-    ],
-    "overqwil": [
-        2,
-        14
-    ],
-    "enamorus-incarnate-forme": [
-        5,
-        8
-    ],
-    "enamorus-therian-forme": [
-        5,
-        8
-    ],
-    "sprigatito": [
-        10
-    ],
-    "floragato": [
-        10
-    ],
-    "meowscarada": [
-        10,
-        2
-    ],
-    "fuecoco": [
-        7
-    ],
-    "crocalor": [
-        7
-    ],
-    "skeledirge": [
-        7,
-        9
-    ],
-    "quaxly": [
-        18
-    ],
-    "quaxwell": [
-        18
-    ],
-    "quaquaval": [
-        18,
-        6
-    ],
-    "lechonk": [
-        13
-    ],
-    "oinkologne-male": [
-        13
-    ],
-    "oinkologne-female": [
-        13
-    ],
-    "tarountula": [
-        1
-    ],
-    "spidops": [
-        1
-    ],
-    "nymble": [
-        1
-    ],
-    "lokix": [
-        1,
-        2
-    ],
-    "pawmi": [
-        4
-    ],
-    "pawmo": [
-        4,
-        6
-    ],
-    "pawmot": [
-        4,
-        6
-    ],
-    "tandemaus": [
-        13
-    ],
-    "maushold-family-of-four": [
-        13
-    ],
-    "maushold-family-of-three": [
-        13
-    ],
-    "fidough": [
-        5
-    ],
-    "dachsbun": [
-        5
-    ],
-    "smoliv": [
-        10,
-        13
-    ],
-    "dolliv": [
-        10,
-        13
-    ],
-    "arboliva": [
-        10,
-        13
-    ],
-    "squawkabilly-green-plumage": [
-        13,
-        8
-    ],
-    "squawkabilly-blue-plumage": [
-        13,
-        8
-    ],
-    "squawkabilly-yellow-plumage": [
-        13,
-        8
-    ],
-    "squawkabilly-white-plumage": [
-        13,
-        8
-    ],
-    "nacli": [
-        16
-    ],
-    "naclstack": [
-        16
-    ],
-    "garganacl": [
-        16
-    ],
-    "charcadet": [
-        7
-    ],
-    "armarouge": [
-        7,
-        15
-    ],
-    "ceruledge": [
-        7,
-        9
-    ],
-    "tadbulb": [
-        4
-    ],
-    "bellibolt": [
-        4
-    ],
-    "wattrel": [
-        4,
-        8
-    ],
-    "kilowattrel": [
-        4,
-        8
-    ],
-    "maschiff": [
-        2
-    ],
-    "mabosstiff": [
-        2
-    ],
-    "shroodle": [
-        14,
-        13
-    ],
-    "grafaiai": [
-        14,
-        13
-    ],
-    "bramblin": [
-        10,
-        9
-    ],
-    "brambleghast": [
-        10,
-        9
-    ],
-    "toedscool": [
-        11,
-        10
-    ],
-    "toedscruel": [
-        11,
-        10
-    ],
-    "klawf": [
-        16
-    ],
-    "capsakid": [
-        10
-    ],
-    "scovillain": [
-        10,
-        7
-    ],
-    "rellor": [
-        1
-    ],
-    "rabsca": [
-        1,
-        15
-    ],
-    "flittle": [
-        15
-    ],
-    "espathra": [
-        15
-    ],
-    "tinkatink": [
-        5,
-        17
-    ],
-    "tinkatuff": [
-        5,
-        17
-    ],
-    "tinkaton": [
-        5,
-        17
-    ],
-    "wiglett": [
-        18
-    ],
-    "wugtrio": [
-        18
-    ],
-    "bombirdier": [
-        8,
-        2
-    ],
-    "finizen": [
-        18
-    ],
-    "palafin-zero-form": [
-        18
-    ],
-    "palafin-hero-form": [
-        18
-    ],
-    "varoom": [
-        17,
-        14
-    ],
-    "revavroom": [
-        17,
-        14
-    ],
-    "cyclizar": [
-        3,
-        13
-    ],
-    "orthworm": [
-        17
-    ],
-    "glimmet": [
-        16,
-        14
-    ],
-    "glimmora": [
-        16,
-        14
-    ],
-    "greavard": [
-        9
-    ],
-    "houndstone": [
-        9
-    ],
-    "flamigo": [
-        8,
-        6
-    ],
-    "cetoddle": [
-        12
-    ],
-    "cetitan": [
-        12
-    ],
-    "veluza": [
-        18,
-        15
-    ],
-    "dondozo": [
-        18
-    ],
-    "tatsugiri-curly-form": [
-        3,
-        18
-    ],
-    "tatsugiri-droopy-form": [
-        3,
-        18
-    ],
-    "tatsugiri-stretchy-form": [
-        3,
-        18
-    ],
-    "annihilape": [
-        6,
-        9
-    ],
-    "clodsire": [
-        14,
-        11
-    ],
-    "farigiraf": [
-        13,
-        15
-    ],
-    "dudunsparce-two-segment-form": [
-        13
-    ],
-    "dudunsparce-three-segment-form": [
-        13
-    ],
-    "kingambit": [
-        2,
-        17
-    ],
-    "great-tusk": [
-        11,
-        6
-    ],
-    "scream-tail": [
-        5,
-        15
-    ],
-    "brute-bonnet": [
-        10,
-        2
-    ],
-    "flutter-mane": [
-        9,
-        5
-    ],
-    "slither-wing": [
-        1,
-        6
-    ],
-    "sandy-shocks": [
-        4,
-        11
-    ],
-    "iron-treads": [
-        11,
-        17
-    ],
-    "iron-bundle": [
-        12,
-        18
-    ],
-    "iron-hands": [
-        6,
-        4
-    ],
-    "iron-jugulis": [
-        2,
-        8
-    ],
-    "iron-moth": [
-        7,
-        14
-    ],
-    "iron-thorns": [
-        16,
-        4
-    ],
-    "frigibax": [
-        3,
-        12
-    ],
-    "arctibax": [
-        3,
-        12
-    ],
-    "baxcalibur": [
-        3,
-        12
-    ],
-    "gimmighoul-chest-form": [
-        9
-    ],
-    "gimmighoul-roaming-form": [
-        9
-    ],
-    "gholdengo": [
-        17,
-        9
-    ],
-    "wo-chien": [
-        2,
-        10
-    ],
-    "chien-pao": [
-        2,
-        12
-    ],
-    "ting-lu": [
-        2,
-        11
-    ],
-    "chi-yu": [
-        2,
-        7
-    ],
-    "roaring-moon": [
-        3,
-        2
-    ],
-    "iron-valiant": [
-        5,
-        6
-    ],
-    "koraidon": [
-        6,
-        3
-    ],
-    "miraidon": [
-        4,
-        3
-    ],
-    "walking-wake": [
-        18,
-        3
-    ],
-    "iron-leaves": [
-        10,
-        15
-    ],
-    "dipplin": [
-        10,
-        3
-    ],
-    "poltchageist": [
-        10,
-        9
-    ],
-    "sinistcha": [
-        10,
-        9
-    ],
-    "okidogi": [
-        14,
-        6
-    ],
-    "munkidori": [
-        14,
-        15
-    ],
-    "fezandipiti": [
-        14,
-        5
-    ],
-    "ogerpon-teal-mask": [
-        10
-    ],
-    "ogerpon-wellspring-mask": [
-        10,
-        18
-    ],
-    "ogerpon-hearthflame-mask": [
-        10,
-        7
-    ],
-    "ogerpon-cornerstone-mask": [
-        10,
-        16
-    ],
-    "archaludon": [
-        17,
-        3
-    ],
-    "hydrapple": [
-        10,
-        3
-    ],
-    "gouging-fire": [
-        7,
-        3
-    ],
-    "raging-bolt": [
-        4,
-        3
-    ],
-    "iron-boulder": [
-        16,
-        15
-    ],
-    "iron-crown": [
-        17,
-        15
-    ],
-    "terapagos-normal-form": [
-        13
-    ],
-    "terapagos-terastal-form": [
-        13
-    ],
-    "terapagos-stellar-form": [
-        13
-    ],
-    "pecharunt": [
-        14,
-        9
-    ]
+    "bulbasaur": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "ivysaur": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "venusaur": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "mega-venusaur": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "charmander": {
+        "types": [
+            7
+        ]
+    },
+    "charmeleon": {
+        "types": [
+            7
+        ]
+    },
+    "charizard": {
+        "types": [
+            7,
+            8
+        ]
+    },
+    "mega-charizard-x": {
+        "types": [
+            7,
+            3
+        ]
+    },
+    "mega-charizard-y": {
+        "types": [
+            7,
+            8
+        ]
+    },
+    "squirtle": {
+        "types": [
+            18
+        ]
+    },
+    "wartortle": {
+        "types": [
+            18
+        ]
+    },
+    "blastoise": {
+        "types": [
+            18
+        ]
+    },
+    "mega-blastoise": {
+        "types": [
+            18
+        ]
+    },
+    "caterpie": {
+        "types": [
+            1
+        ]
+    },
+    "metapod": {
+        "types": [
+            1
+        ]
+    },
+    "butterfree": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "weedle": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "kakuna": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "beedrill": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "mega-beedrill": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "pidgey": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "pidgeotto": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "pidgeot": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "mega-pidgeot": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "rattata": {
+        "types": [
+            13
+        ]
+    },
+    "alolan-rattata": {
+        "types": [
+            2,
+            13
+        ]
+    },
+    "raticate": {
+        "types": [
+            13
+        ]
+    },
+    "alolan-raticate": {
+        "types": [
+            2,
+            13
+        ]
+    },
+    "spearow": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "fearow": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "ekans": {
+        "types": [
+            14
+        ]
+    },
+    "arbok": {
+        "types": [
+            14
+        ]
+    },
+    "pikachu": {
+        "types": [
+            4
+        ]
+    },
+    "partner-pikachu": {
+        "types": [
+            4
+        ]
+    },
+    "raichu": {
+        "types": [
+            4
+        ]
+    },
+    "alolan-raichu": {
+        "types": [
+            4,
+            15
+        ]
+    },
+    "sandshrew": {
+        "types": [
+            11
+        ]
+    },
+    "alolan-sandshrew": {
+        "types": [
+            12,
+            17
+        ]
+    },
+    "sandslash": {
+        "types": [
+            11
+        ]
+    },
+    "alolan-sandslash": {
+        "types": [
+            12,
+            17
+        ]
+    },
+    "nidoran-f": {
+        "types": [
+            14
+        ]
+    },
+    "nidorina": {
+        "types": [
+            14
+        ]
+    },
+    "nidoqueen": {
+        "types": [
+            14,
+            11
+        ]
+    },
+    "nidoran-m": {
+        "types": [
+            14
+        ]
+    },
+    "nidorino": {
+        "types": [
+            14
+        ]
+    },
+    "nidoking": {
+        "types": [
+            14,
+            11
+        ]
+    },
+    "clefairy": {
+        "types": [
+            5
+        ]
+    },
+    "clefable": {
+        "types": [
+            5
+        ]
+    },
+    "vulpix": {
+        "types": [
+            7
+        ]
+    },
+    "alolan-vulpix": {
+        "types": [
+            12
+        ]
+    },
+    "ninetales": {
+        "types": [
+            7
+        ]
+    },
+    "alolan-ninetales": {
+        "types": [
+            12,
+            5
+        ]
+    },
+    "jigglypuff": {
+        "types": [
+            13,
+            5
+        ]
+    },
+    "wigglytuff": {
+        "types": [
+            13,
+            5
+        ]
+    },
+    "zubat": {
+        "types": [
+            14,
+            8
+        ]
+    },
+    "golbat": {
+        "types": [
+            14,
+            8
+        ]
+    },
+    "oddish": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "gloom": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "vileplume": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "paras": {
+        "types": [
+            1,
+            10
+        ]
+    },
+    "parasect": {
+        "types": [
+            1,
+            10
+        ]
+    },
+    "venonat": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "venomoth": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "diglett": {
+        "types": [
+            11
+        ]
+    },
+    "alolan-diglett": {
+        "types": [
+            11,
+            17
+        ]
+    },
+    "dugtrio": {
+        "types": [
+            11
+        ]
+    },
+    "alolan-dugtrio": {
+        "types": [
+            11,
+            17
+        ]
+    },
+    "meowth": {
+        "types": [
+            13
+        ]
+    },
+    "alolan-meowth": {
+        "types": [
+            2
+        ]
+    },
+    "galarian-meowth": {
+        "types": [
+            17
+        ]
+    },
+    "persian": {
+        "types": [
+            13
+        ]
+    },
+    "alolan-persian": {
+        "types": [
+            2
+        ]
+    },
+    "psyduck": {
+        "types": [
+            18
+        ]
+    },
+    "golduck": {
+        "types": [
+            18
+        ]
+    },
+    "mankey": {
+        "types": [
+            6
+        ]
+    },
+    "primeape": {
+        "types": [
+            6
+        ]
+    },
+    "growlithe": {
+        "types": [
+            7
+        ]
+    },
+    "hisuian-growlithe": {
+        "types": [
+            7,
+            16
+        ]
+    },
+    "arcanine": {
+        "types": [
+            7
+        ]
+    },
+    "hisuian-arcanine": {
+        "types": [
+            7,
+            16
+        ]
+    },
+    "poliwag": {
+        "types": [
+            18
+        ]
+    },
+    "poliwhirl": {
+        "types": [
+            18
+        ]
+    },
+    "poliwrath": {
+        "types": [
+            18,
+            6
+        ]
+    },
+    "abra": {
+        "types": [
+            15
+        ]
+    },
+    "kadabra": {
+        "types": [
+            15
+        ]
+    },
+    "alakazam": {
+        "types": [
+            15
+        ]
+    },
+    "mega-alakazam": {
+        "types": [
+            15
+        ]
+    },
+    "machop": {
+        "types": [
+            6
+        ]
+    },
+    "machoke": {
+        "types": [
+            6
+        ]
+    },
+    "machamp": {
+        "types": [
+            6
+        ]
+    },
+    "bellsprout": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "weepinbell": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "victreebel": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "tentacool": {
+        "types": [
+            18,
+            14
+        ]
+    },
+    "tentacruel": {
+        "types": [
+            18,
+            14
+        ]
+    },
+    "geodude": {
+        "types": [
+            16,
+            11
+        ]
+    },
+    "alolan-geodude": {
+        "types": [
+            16,
+            4
+        ]
+    },
+    "graveler": {
+        "types": [
+            16,
+            11
+        ]
+    },
+    "alolan-graveler": {
+        "types": [
+            16,
+            4
+        ]
+    },
+    "golem": {
+        "types": [
+            16,
+            11
+        ]
+    },
+    "alolan-golem": {
+        "types": [
+            16,
+            4
+        ]
+    },
+    "ponyta": {
+        "types": [
+            7
+        ]
+    },
+    "galarian-ponyta": {
+        "types": [
+            15
+        ]
+    },
+    "rapidash": {
+        "types": [
+            7
+        ]
+    },
+    "galarian-rapidash": {
+        "types": [
+            15,
+            5
+        ]
+    },
+    "slowpoke": {
+        "types": [
+            18,
+            15
+        ]
+    },
+    "galarian-slowpoke": {
+        "types": [
+            15
+        ]
+    },
+    "slowbro": {
+        "types": [
+            18,
+            15
+        ]
+    },
+    "mega-slowbro": {
+        "types": [
+            18,
+            15
+        ]
+    },
+    "galarian-slowbro": {
+        "types": [
+            14,
+            15
+        ]
+    },
+    "magnemite": {
+        "types": [
+            4,
+            17
+        ]
+    },
+    "magneton": {
+        "types": [
+            4,
+            17
+        ]
+    },
+    "farfetchd": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "galarian-farfetch'd": {
+        "types": [
+            6
+        ]
+    },
+    "doduo": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "dodrio": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "seel": {
+        "types": [
+            18
+        ]
+    },
+    "dewgong": {
+        "types": [
+            18,
+            12
+        ]
+    },
+    "grimer": {
+        "types": [
+            14
+        ]
+    },
+    "alolan-grimer": {
+        "types": [
+            14,
+            2
+        ]
+    },
+    "muk": {
+        "types": [
+            14
+        ]
+    },
+    "alolan-muk": {
+        "types": [
+            14,
+            2
+        ]
+    },
+    "shellder": {
+        "types": [
+            18
+        ]
+    },
+    "cloyster": {
+        "types": [
+            18,
+            12
+        ]
+    },
+    "gastly": {
+        "types": [
+            9,
+            14
+        ]
+    },
+    "haunter": {
+        "types": [
+            9,
+            14
+        ]
+    },
+    "gengar": {
+        "types": [
+            9,
+            14
+        ]
+    },
+    "mega-gengar": {
+        "types": [
+            9,
+            14
+        ]
+    },
+    "onix": {
+        "types": [
+            16,
+            11
+        ]
+    },
+    "drowzee": {
+        "types": [
+            15
+        ]
+    },
+    "hypno": {
+        "types": [
+            15
+        ]
+    },
+    "krabby": {
+        "types": [
+            18
+        ]
+    },
+    "kingler": {
+        "types": [
+            18
+        ]
+    },
+    "voltorb": {
+        "types": [
+            4
+        ]
+    },
+    "hisuian-voltorb": {
+        "types": [
+            4,
+            10
+        ]
+    },
+    "electrode": {
+        "types": [
+            4
+        ]
+    },
+    "hisuian-electrode": {
+        "types": [
+            4,
+            10
+        ]
+    },
+    "exeggcute": {
+        "types": [
+            10,
+            15
+        ]
+    },
+    "exeggutor": {
+        "types": [
+            10,
+            15
+        ]
+    },
+    "alolan-exeggutor": {
+        "types": [
+            10,
+            3
+        ]
+    },
+    "cubone": {
+        "types": [
+            11
+        ]
+    },
+    "marowak": {
+        "types": [
+            11
+        ]
+    },
+    "alolan-marowak": {
+        "types": [
+            7,
+            9
+        ]
+    },
+    "hitmonlee": {
+        "types": [
+            6
+        ]
+    },
+    "hitmonchan": {
+        "types": [
+            6
+        ]
+    },
+    "lickitung": {
+        "types": [
+            13
+        ]
+    },
+    "koffing": {
+        "types": [
+            14
+        ]
+    },
+    "weezing": {
+        "types": [
+            14
+        ]
+    },
+    "galarian-weezing": {
+        "types": [
+            14,
+            5
+        ]
+    },
+    "rhyhorn": {
+        "types": [
+            11,
+            16
+        ]
+    },
+    "rhydon": {
+        "types": [
+            11,
+            16
+        ]
+    },
+    "chansey": {
+        "types": [
+            13
+        ]
+    },
+    "tangela": {
+        "types": [
+            10
+        ]
+    },
+    "kangaskhan": {
+        "types": [
+            13
+        ]
+    },
+    "mega-kangaskhan": {
+        "types": [
+            13
+        ]
+    },
+    "horsea": {
+        "types": [
+            18
+        ]
+    },
+    "seadra": {
+        "types": [
+            18
+        ]
+    },
+    "goldeen": {
+        "types": [
+            18
+        ]
+    },
+    "seaking": {
+        "types": [
+            18
+        ]
+    },
+    "staryu": {
+        "types": [
+            18
+        ]
+    },
+    "starmie": {
+        "types": [
+            18,
+            15
+        ]
+    },
+    "mr-mime": {
+        "types": [
+            15,
+            5
+        ]
+    },
+    "galarian-mr.-mime": {
+        "types": [
+            12,
+            15
+        ]
+    },
+    "scyther": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "jynx": {
+        "types": [
+            12,
+            15
+        ]
+    },
+    "electabuzz": {
+        "types": [
+            4
+        ]
+    },
+    "magmar": {
+        "types": [
+            7
+        ]
+    },
+    "pinsir": {
+        "types": [
+            1
+        ]
+    },
+    "mega-pinsir": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "tauros": {
+        "types": [
+            13
+        ]
+    },
+    "tauros-combat-breed": {
+        "types": [
+            6
+        ]
+    },
+    "tauros-blaze-breed": {
+        "types": [
+            6,
+            7
+        ]
+    },
+    "tauros-aqua-breed": {
+        "types": [
+            6,
+            18
+        ]
+    },
+    "magikarp": {
+        "types": [
+            18
+        ]
+    },
+    "gyarados": {
+        "types": [
+            18,
+            8
+        ]
+    },
+    "mega-gyarados": {
+        "types": [
+            18,
+            2
+        ]
+    },
+    "lapras": {
+        "types": [
+            18,
+            12
+        ]
+    },
+    "ditto": {
+        "types": [
+            13
+        ]
+    },
+    "eevee": {
+        "types": [
+            13
+        ]
+    },
+    "partner-eevee": {
+        "types": [
+            13
+        ]
+    },
+    "vaporeon": {
+        "types": [
+            18
+        ]
+    },
+    "jolteon": {
+        "types": [
+            4
+        ]
+    },
+    "flareon": {
+        "types": [
+            7
+        ]
+    },
+    "porygon": {
+        "types": [
+            13
+        ]
+    },
+    "omanyte": {
+        "types": [
+            16,
+            18
+        ]
+    },
+    "omastar": {
+        "types": [
+            16,
+            18
+        ]
+    },
+    "kabuto": {
+        "types": [
+            16,
+            18
+        ]
+    },
+    "kabutops": {
+        "types": [
+            16,
+            18
+        ]
+    },
+    "aerodactyl": {
+        "types": [
+            16,
+            8
+        ]
+    },
+    "mega-aerodactyl": {
+        "types": [
+            16,
+            8
+        ]
+    },
+    "snorlax": {
+        "types": [
+            13
+        ]
+    },
+    "articuno": {
+        "types": [
+            12,
+            8
+        ]
+    },
+    "galarian-articuno": {
+        "types": [
+            15,
+            8
+        ]
+    },
+    "zapdos": {
+        "types": [
+            4,
+            8
+        ]
+    },
+    "galarian-zapdos": {
+        "types": [
+            6,
+            8
+        ]
+    },
+    "moltres": {
+        "types": [
+            7,
+            8
+        ]
+    },
+    "galarian-moltres": {
+        "types": [
+            2,
+            8
+        ]
+    },
+    "dratini": {
+        "types": [
+            3
+        ]
+    },
+    "dragonair": {
+        "types": [
+            3
+        ]
+    },
+    "dragonite": {
+        "types": [
+            3,
+            8
+        ]
+    },
+    "mewtwo": {
+        "types": [
+            15
+        ]
+    },
+    "mega-mewtwo-x": {
+        "types": [
+            15,
+            6
+        ]
+    },
+    "mega-mewtwo-y": {
+        "types": [
+            15
+        ]
+    },
+    "mew": {
+        "types": [
+            15
+        ]
+    },
+    "chikorita": {
+        "types": [
+            10
+        ]
+    },
+    "bayleef": {
+        "types": [
+            10
+        ]
+    },
+    "meganium": {
+        "types": [
+            10
+        ]
+    },
+    "cyndaquil": {
+        "types": [
+            7
+        ]
+    },
+    "quilava": {
+        "types": [
+            7
+        ]
+    },
+    "typhlosion": {
+        "types": [
+            7
+        ]
+    },
+    "hisuian-typhlosion": {
+        "types": [
+            7,
+            9
+        ]
+    },
+    "totodile": {
+        "types": [
+            18
+        ]
+    },
+    "croconaw": {
+        "types": [
+            18
+        ]
+    },
+    "feraligatr": {
+        "types": [
+            18
+        ]
+    },
+    "sentret": {
+        "types": [
+            13
+        ]
+    },
+    "furret": {
+        "types": [
+            13
+        ]
+    },
+    "hoothoot": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "noctowl": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "ledyba": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "ledian": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "spinarak": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "ariados": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "crobat": {
+        "types": [
+            14,
+            8
+        ]
+    },
+    "chinchou": {
+        "types": [
+            18,
+            4
+        ]
+    },
+    "lanturn": {
+        "types": [
+            18,
+            4
+        ]
+    },
+    "pichu": {
+        "types": [
+            4
+        ]
+    },
+    "cleffa": {
+        "types": [
+            5
+        ]
+    },
+    "igglybuff": {
+        "types": [
+            13,
+            5
+        ]
+    },
+    "togepi": {
+        "types": [
+            5
+        ]
+    },
+    "togetic": {
+        "types": [
+            5,
+            8
+        ]
+    },
+    "natu": {
+        "types": [
+            15,
+            8
+        ]
+    },
+    "xatu": {
+        "types": [
+            15,
+            8
+        ]
+    },
+    "mareep": {
+        "types": [
+            4
+        ]
+    },
+    "flaaffy": {
+        "types": [
+            4
+        ]
+    },
+    "ampharos": {
+        "types": [
+            4
+        ]
+    },
+    "mega-ampharos": {
+        "types": [
+            4,
+            3
+        ]
+    },
+    "bellossom": {
+        "types": [
+            10
+        ]
+    },
+    "marill": {
+        "types": [
+            18,
+            5
+        ]
+    },
+    "azumarill": {
+        "types": [
+            18,
+            5
+        ]
+    },
+    "sudowoodo": {
+        "types": [
+            16
+        ]
+    },
+    "politoed": {
+        "types": [
+            18
+        ]
+    },
+    "hoppip": {
+        "types": [
+            10,
+            8
+        ]
+    },
+    "skiploom": {
+        "types": [
+            10,
+            8
+        ]
+    },
+    "jumpluff": {
+        "types": [
+            10,
+            8
+        ]
+    },
+    "aipom": {
+        "types": [
+            13
+        ]
+    },
+    "sunkern": {
+        "types": [
+            10
+        ]
+    },
+    "sunflora": {
+        "types": [
+            10
+        ]
+    },
+    "yanma": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "wooper": {
+        "types": [
+            18,
+            11
+        ]
+    },
+    "paldean-wooper": {
+        "types": [
+            14,
+            11
+        ]
+    },
+    "quagsire": {
+        "types": [
+            18,
+            11
+        ]
+    },
+    "espeon": {
+        "types": [
+            15
+        ]
+    },
+    "umbreon": {
+        "types": [
+            2
+        ]
+    },
+    "murkrow": {
+        "types": [
+            2,
+            8
+        ]
+    },
+    "slowking": {
+        "types": [
+            18,
+            15
+        ]
+    },
+    "galarian-slowking": {
+        "types": [
+            14,
+            15
+        ]
+    },
+    "misdreavus": {
+        "types": [
+            9
+        ]
+    },
+    "unown": {
+        "types": [
+            15
+        ]
+    },
+    "wobbuffet": {
+        "types": [
+            15
+        ]
+    },
+    "girafarig": {
+        "types": [
+            13,
+            15
+        ]
+    },
+    "pineco": {
+        "types": [
+            1
+        ]
+    },
+    "forretress": {
+        "types": [
+            1,
+            17
+        ]
+    },
+    "dunsparce": {
+        "types": [
+            13
+        ]
+    },
+    "gligar": {
+        "types": [
+            11,
+            8
+        ]
+    },
+    "steelix": {
+        "types": [
+            17,
+            11
+        ]
+    },
+    "mega-steelix": {
+        "types": [
+            17,
+            11
+        ]
+    },
+    "snubbull": {
+        "types": [
+            5
+        ]
+    },
+    "granbull": {
+        "types": [
+            5
+        ]
+    },
+    "qwilfish": {
+        "types": [
+            18,
+            14
+        ]
+    },
+    "hisuian-qwilfish": {
+        "types": [
+            2,
+            14
+        ]
+    },
+    "scizor": {
+        "types": [
+            1,
+            17
+        ]
+    },
+    "mega-scizor": {
+        "types": [
+            1,
+            17
+        ]
+    },
+    "shuckle": {
+        "types": [
+            1,
+            16
+        ]
+    },
+    "heracross": {
+        "types": [
+            1,
+            6
+        ]
+    },
+    "mega-heracross": {
+        "types": [
+            1,
+            6
+        ]
+    },
+    "sneasel": {
+        "types": [
+            2,
+            12
+        ]
+    },
+    "hisuian-sneasel": {
+        "types": [
+            6,
+            14
+        ]
+    },
+    "teddiursa": {
+        "types": [
+            13
+        ]
+    },
+    "ursaring": {
+        "types": [
+            13
+        ]
+    },
+    "slugma": {
+        "types": [
+            7
+        ]
+    },
+    "magcargo": {
+        "types": [
+            7,
+            16
+        ]
+    },
+    "swinub": {
+        "types": [
+            12,
+            11
+        ]
+    },
+    "piloswine": {
+        "types": [
+            12,
+            11
+        ]
+    },
+    "corsola": {
+        "types": [
+            18,
+            16
+        ]
+    },
+    "galarian-corsola": {
+        "types": [
+            9
+        ]
+    },
+    "remoraid": {
+        "types": [
+            18
+        ]
+    },
+    "octillery": {
+        "types": [
+            18
+        ]
+    },
+    "delibird": {
+        "types": [
+            12,
+            8
+        ]
+    },
+    "mantine": {
+        "types": [
+            18,
+            8
+        ]
+    },
+    "skarmory": {
+        "types": [
+            17,
+            8
+        ]
+    },
+    "houndour": {
+        "types": [
+            2,
+            7
+        ]
+    },
+    "houndoom": {
+        "types": [
+            2,
+            7
+        ]
+    },
+    "mega-houndoom": {
+        "types": [
+            2,
+            7
+        ]
+    },
+    "kingdra": {
+        "types": [
+            18,
+            3
+        ]
+    },
+    "phanpy": {
+        "types": [
+            11
+        ]
+    },
+    "donphan": {
+        "types": [
+            11
+        ]
+    },
+    "porygon2": {
+        "types": [
+            13
+        ]
+    },
+    "stantler": {
+        "types": [
+            13
+        ]
+    },
+    "smeargle": {
+        "types": [
+            13
+        ]
+    },
+    "tyrogue": {
+        "types": [
+            6
+        ]
+    },
+    "hitmontop": {
+        "types": [
+            6
+        ]
+    },
+    "smoochum": {
+        "types": [
+            12,
+            15
+        ]
+    },
+    "elekid": {
+        "types": [
+            4
+        ]
+    },
+    "magby": {
+        "types": [
+            7
+        ]
+    },
+    "miltank": {
+        "types": [
+            13
+        ]
+    },
+    "blissey": {
+        "types": [
+            13
+        ]
+    },
+    "raikou": {
+        "types": [
+            4
+        ]
+    },
+    "entei": {
+        "types": [
+            7
+        ]
+    },
+    "suicune": {
+        "types": [
+            18
+        ]
+    },
+    "larvitar": {
+        "types": [
+            16,
+            11
+        ]
+    },
+    "pupitar": {
+        "types": [
+            16,
+            11
+        ]
+    },
+    "tyranitar": {
+        "types": [
+            16,
+            2
+        ]
+    },
+    "mega-tyranitar": {
+        "types": [
+            16,
+            2
+        ]
+    },
+    "lugia": {
+        "types": [
+            15,
+            8
+        ]
+    },
+    "ho-oh": {
+        "types": [
+            7,
+            8
+        ]
+    },
+    "celebi": {
+        "types": [
+            15,
+            10
+        ]
+    },
+    "treecko": {
+        "types": [
+            10
+        ]
+    },
+    "grovyle": {
+        "types": [
+            10
+        ]
+    },
+    "sceptile": {
+        "types": [
+            10
+        ]
+    },
+    "mega-sceptile": {
+        "types": [
+            10,
+            3
+        ]
+    },
+    "torchic": {
+        "types": [
+            7
+        ]
+    },
+    "combusken": {
+        "types": [
+            7,
+            6
+        ]
+    },
+    "blaziken": {
+        "types": [
+            7,
+            6
+        ]
+    },
+    "mega-blaziken": {
+        "types": [
+            7,
+            6
+        ]
+    },
+    "mudkip": {
+        "types": [
+            18
+        ]
+    },
+    "marshtomp": {
+        "types": [
+            18,
+            11
+        ]
+    },
+    "swampert": {
+        "types": [
+            18,
+            11
+        ]
+    },
+    "mega-swampert": {
+        "types": [
+            18,
+            11
+        ]
+    },
+    "poochyena": {
+        "types": [
+            2
+        ]
+    },
+    "mightyena": {
+        "types": [
+            2
+        ]
+    },
+    "zigzagoon": {
+        "types": [
+            13
+        ]
+    },
+    "galarian-zigzagoon": {
+        "types": [
+            2,
+            13
+        ]
+    },
+    "linoone": {
+        "types": [
+            13
+        ]
+    },
+    "galarian-linoone": {
+        "types": [
+            2,
+            13
+        ]
+    },
+    "wurmple": {
+        "types": [
+            1
+        ]
+    },
+    "silcoon": {
+        "types": [
+            1
+        ]
+    },
+    "beautifly": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "cascoon": {
+        "types": [
+            1
+        ]
+    },
+    "dustox": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "lotad": {
+        "types": [
+            18,
+            10
+        ]
+    },
+    "lombre": {
+        "types": [
+            18,
+            10
+        ]
+    },
+    "ludicolo": {
+        "types": [
+            18,
+            10
+        ]
+    },
+    "seedot": {
+        "types": [
+            10
+        ]
+    },
+    "nuzleaf": {
+        "types": [
+            10,
+            2
+        ]
+    },
+    "shiftry": {
+        "types": [
+            10,
+            2
+        ]
+    },
+    "taillow": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "swellow": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "wingull": {
+        "types": [
+            18,
+            8
+        ]
+    },
+    "pelipper": {
+        "types": [
+            18,
+            8
+        ]
+    },
+    "ralts": {
+        "types": [
+            15,
+            5
+        ]
+    },
+    "kirlia": {
+        "types": [
+            15,
+            5
+        ]
+    },
+    "gardevoir": {
+        "types": [
+            15,
+            5
+        ]
+    },
+    "mega-gardevoir": {
+        "types": [
+            15,
+            5
+        ]
+    },
+    "surskit": {
+        "types": [
+            1,
+            18
+        ]
+    },
+    "masquerain": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "shroomish": {
+        "types": [
+            10
+        ]
+    },
+    "breloom": {
+        "types": [
+            10,
+            6
+        ]
+    },
+    "slakoth": {
+        "types": [
+            13
+        ]
+    },
+    "vigoroth": {
+        "types": [
+            13
+        ]
+    },
+    "slaking": {
+        "types": [
+            13
+        ]
+    },
+    "nincada": {
+        "types": [
+            1,
+            11
+        ]
+    },
+    "ninjask": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "shedinja": {
+        "types": [
+            1,
+            9
+        ]
+    },
+    "whismur": {
+        "types": [
+            13
+        ]
+    },
+    "loudred": {
+        "types": [
+            13
+        ]
+    },
+    "exploud": {
+        "types": [
+            13
+        ]
+    },
+    "makuhita": {
+        "types": [
+            6
+        ]
+    },
+    "hariyama": {
+        "types": [
+            6
+        ]
+    },
+    "azurill": {
+        "types": [
+            13,
+            5
+        ]
+    },
+    "nosepass": {
+        "types": [
+            16
+        ]
+    },
+    "skitty": {
+        "types": [
+            13
+        ]
+    },
+    "delcatty": {
+        "types": [
+            13
+        ]
+    },
+    "sableye": {
+        "types": [
+            2,
+            9
+        ]
+    },
+    "mega-sableye": {
+        "types": [
+            2,
+            9
+        ]
+    },
+    "mawile": {
+        "types": [
+            17,
+            5
+        ]
+    },
+    "mega-mawile": {
+        "types": [
+            17,
+            5
+        ]
+    },
+    "aron": {
+        "types": [
+            17,
+            16
+        ]
+    },
+    "lairon": {
+        "types": [
+            17,
+            16
+        ]
+    },
+    "aggron": {
+        "types": [
+            17,
+            16
+        ]
+    },
+    "mega-aggron": {
+        "types": [
+            17
+        ]
+    },
+    "meditite": {
+        "types": [
+            6,
+            15
+        ]
+    },
+    "medicham": {
+        "types": [
+            6,
+            15
+        ]
+    },
+    "mega-medicham": {
+        "types": [
+            6,
+            15
+        ]
+    },
+    "electrike": {
+        "types": [
+            4
+        ]
+    },
+    "manectric": {
+        "types": [
+            4
+        ]
+    },
+    "mega-manectric": {
+        "types": [
+            4
+        ]
+    },
+    "plusle": {
+        "types": [
+            4
+        ]
+    },
+    "minun": {
+        "types": [
+            4
+        ]
+    },
+    "volbeat": {
+        "types": [
+            1
+        ]
+    },
+    "illumise": {
+        "types": [
+            1
+        ]
+    },
+    "roselia": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "gulpin": {
+        "types": [
+            14
+        ]
+    },
+    "swalot": {
+        "types": [
+            14
+        ]
+    },
+    "carvanha": {
+        "types": [
+            18,
+            2
+        ]
+    },
+    "sharpedo": {
+        "types": [
+            18,
+            2
+        ]
+    },
+    "mega-sharpedo": {
+        "types": [
+            18,
+            2
+        ]
+    },
+    "wailmer": {
+        "types": [
+            18
+        ]
+    },
+    "wailord": {
+        "types": [
+            18
+        ]
+    },
+    "numel": {
+        "types": [
+            7,
+            11
+        ]
+    },
+    "camerupt": {
+        "types": [
+            7,
+            11
+        ]
+    },
+    "mega-camerupt": {
+        "types": [
+            7,
+            11
+        ]
+    },
+    "torkoal": {
+        "types": [
+            7
+        ]
+    },
+    "spoink": {
+        "types": [
+            15
+        ]
+    },
+    "grumpig": {
+        "types": [
+            15
+        ]
+    },
+    "spinda": {
+        "types": [
+            13
+        ]
+    },
+    "trapinch": {
+        "types": [
+            11
+        ]
+    },
+    "vibrava": {
+        "types": [
+            11,
+            3
+        ]
+    },
+    "flygon": {
+        "types": [
+            11,
+            3
+        ]
+    },
+    "cacnea": {
+        "types": [
+            10
+        ]
+    },
+    "cacturne": {
+        "types": [
+            10,
+            2
+        ]
+    },
+    "swablu": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "altaria": {
+        "types": [
+            3,
+            8
+        ]
+    },
+    "mega-altaria": {
+        "types": [
+            3,
+            5
+        ]
+    },
+    "zangoose": {
+        "types": [
+            13
+        ]
+    },
+    "seviper": {
+        "types": [
+            14
+        ]
+    },
+    "lunatone": {
+        "types": [
+            16,
+            15
+        ]
+    },
+    "solrock": {
+        "types": [
+            16,
+            15
+        ]
+    },
+    "barboach": {
+        "types": [
+            18,
+            11
+        ]
+    },
+    "whiscash": {
+        "types": [
+            18,
+            11
+        ]
+    },
+    "corphish": {
+        "types": [
+            18
+        ]
+    },
+    "crawdaunt": {
+        "types": [
+            18,
+            2
+        ]
+    },
+    "baltoy": {
+        "types": [
+            11,
+            15
+        ]
+    },
+    "claydol": {
+        "types": [
+            11,
+            15
+        ]
+    },
+    "lileep": {
+        "types": [
+            16,
+            10
+        ]
+    },
+    "cradily": {
+        "types": [
+            16,
+            10
+        ]
+    },
+    "anorith": {
+        "types": [
+            16,
+            1
+        ]
+    },
+    "armaldo": {
+        "types": [
+            16,
+            1
+        ]
+    },
+    "feebas": {
+        "types": [
+            18
+        ]
+    },
+    "milotic": {
+        "types": [
+            18
+        ]
+    },
+    "castform": {
+        "types": [
+            13
+        ]
+    },
+    "castform-sunny-form": {
+        "types": [
+            7
+        ]
+    },
+    "castform-rainy-form": {
+        "types": [
+            18
+        ]
+    },
+    "castform-snowy-form": {
+        "types": [
+            12
+        ]
+    },
+    "kecleon": {
+        "types": [
+            13
+        ]
+    },
+    "shuppet": {
+        "types": [
+            9
+        ]
+    },
+    "banette": {
+        "types": [
+            9
+        ]
+    },
+    "mega-banette": {
+        "types": [
+            9
+        ]
+    },
+    "duskull": {
+        "types": [
+            9
+        ]
+    },
+    "dusclops": {
+        "types": [
+            9
+        ]
+    },
+    "tropius": {
+        "types": [
+            10,
+            8
+        ]
+    },
+    "chimecho": {
+        "types": [
+            15
+        ]
+    },
+    "absol": {
+        "types": [
+            2
+        ]
+    },
+    "mega-absol": {
+        "types": [
+            2
+        ]
+    },
+    "wynaut": {
+        "types": [
+            15
+        ]
+    },
+    "snorunt": {
+        "types": [
+            12
+        ]
+    },
+    "glalie": {
+        "types": [
+            12
+        ]
+    },
+    "mega-glalie": {
+        "types": [
+            12
+        ]
+    },
+    "spheal": {
+        "types": [
+            12,
+            18
+        ]
+    },
+    "sealeo": {
+        "types": [
+            12,
+            18
+        ]
+    },
+    "walrein": {
+        "types": [
+            12,
+            18
+        ]
+    },
+    "clamperl": {
+        "types": [
+            18
+        ]
+    },
+    "huntail": {
+        "types": [
+            18
+        ]
+    },
+    "gorebyss": {
+        "types": [
+            18
+        ]
+    },
+    "relicanth": {
+        "types": [
+            18,
+            16
+        ]
+    },
+    "luvdisc": {
+        "types": [
+            18
+        ]
+    },
+    "bagon": {
+        "types": [
+            3
+        ]
+    },
+    "shelgon": {
+        "types": [
+            3
+        ]
+    },
+    "salamence": {
+        "types": [
+            3,
+            8
+        ]
+    },
+    "mega-salamence": {
+        "types": [
+            3,
+            8
+        ]
+    },
+    "beldum": {
+        "types": [
+            17,
+            15
+        ]
+    },
+    "metang": {
+        "types": [
+            17,
+            15
+        ]
+    },
+    "metagross": {
+        "types": [
+            17,
+            15
+        ]
+    },
+    "mega-metagross": {
+        "types": [
+            17,
+            15
+        ]
+    },
+    "regirock": {
+        "types": [
+            16
+        ]
+    },
+    "regice": {
+        "types": [
+            12
+        ]
+    },
+    "registeel": {
+        "types": [
+            17
+        ]
+    },
+    "latias": {
+        "types": [
+            3,
+            15
+        ]
+    },
+    "mega-latias": {
+        "types": [
+            3,
+            15
+        ]
+    },
+    "latios": {
+        "types": [
+            3,
+            15
+        ]
+    },
+    "mega-latios": {
+        "types": [
+            3,
+            15
+        ]
+    },
+    "kyogre": {
+        "types": [
+            18
+        ]
+    },
+    "primal-kyogre": {
+        "types": [
+            18
+        ]
+    },
+    "groudon": {
+        "types": [
+            11
+        ]
+    },
+    "primal-groudon": {
+        "types": [
+            11,
+            7
+        ]
+    },
+    "rayquaza": {
+        "types": [
+            3,
+            8
+        ]
+    },
+    "mega-rayquaza": {
+        "types": [
+            3,
+            8
+        ]
+    },
+    "jirachi": {
+        "types": [
+            17,
+            15
+        ]
+    },
+    "deoxys-normal-forme": {
+        "types": [
+            15
+        ]
+    },
+    "deoxys-attack-forme": {
+        "types": [
+            15
+        ]
+    },
+    "deoxys-defense-forme": {
+        "types": [
+            15
+        ]
+    },
+    "deoxys-speed-forme": {
+        "types": [
+            15
+        ]
+    },
+    "turtwig": {
+        "types": [
+            10
+        ]
+    },
+    "grotle": {
+        "types": [
+            10
+        ]
+    },
+    "torterra": {
+        "types": [
+            10,
+            11
+        ]
+    },
+    "chimchar": {
+        "types": [
+            7
+        ]
+    },
+    "monferno": {
+        "types": [
+            7,
+            6
+        ]
+    },
+    "infernape": {
+        "types": [
+            7,
+            6
+        ]
+    },
+    "piplup": {
+        "types": [
+            18
+        ]
+    },
+    "prinplup": {
+        "types": [
+            18
+        ]
+    },
+    "empoleon": {
+        "types": [
+            18,
+            17
+        ]
+    },
+    "starly": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "staravia": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "staraptor": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "bidoof": {
+        "types": [
+            13
+        ]
+    },
+    "bibarel": {
+        "types": [
+            13,
+            18
+        ]
+    },
+    "kricketot": {
+        "types": [
+            1
+        ]
+    },
+    "kricketune": {
+        "types": [
+            1
+        ]
+    },
+    "shinx": {
+        "types": [
+            4
+        ]
+    },
+    "luxio": {
+        "types": [
+            4
+        ]
+    },
+    "luxray": {
+        "types": [
+            4
+        ]
+    },
+    "budew": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "roserade": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "cranidos": {
+        "types": [
+            16
+        ]
+    },
+    "rampardos": {
+        "types": [
+            16
+        ]
+    },
+    "shieldon": {
+        "types": [
+            16,
+            17
+        ]
+    },
+    "bastiodon": {
+        "types": [
+            16,
+            17
+        ]
+    },
+    "burmy-plant-cloak": {
+        "types": [
+            1
+        ]
+    },
+    "burmy-sandy-cloak": {
+        "types": [
+            1
+        ]
+    },
+    "burmy-trash-cloak": {
+        "types": [
+            1
+        ]
+    },
+    "wormadam-plant-cloak": {
+        "types": [
+            1,
+            10
+        ]
+    },
+    "wormadam-sandy-cloak": {
+        "types": [
+            1,
+            11
+        ]
+    },
+    "wormadam-trash-cloak": {
+        "types": [
+            1,
+            17
+        ]
+    },
+    "mothim": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "combee": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "vespiquen": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "pachirisu": {
+        "types": [
+            4
+        ]
+    },
+    "buizel": {
+        "types": [
+            18
+        ]
+    },
+    "floatzel": {
+        "types": [
+            18
+        ]
+    },
+    "cherubi": {
+        "types": [
+            10
+        ]
+    },
+    "cherrim": {
+        "types": [
+            10
+        ]
+    },
+    "shellos": {
+        "types": [
+            18
+        ]
+    },
+    "gastrodon": {
+        "types": [
+            18,
+            11
+        ]
+    },
+    "ambipom": {
+        "types": [
+            13
+        ]
+    },
+    "drifloon": {
+        "types": [
+            9,
+            8
+        ]
+    },
+    "drifblim": {
+        "types": [
+            9,
+            8
+        ]
+    },
+    "buneary": {
+        "types": [
+            13
+        ]
+    },
+    "lopunny": {
+        "types": [
+            13
+        ]
+    },
+    "mega-lopunny": {
+        "types": [
+            13,
+            6
+        ]
+    },
+    "mismagius": {
+        "types": [
+            9
+        ]
+    },
+    "honchkrow": {
+        "types": [
+            2,
+            8
+        ]
+    },
+    "glameow": {
+        "types": [
+            13
+        ]
+    },
+    "purugly": {
+        "types": [
+            13
+        ]
+    },
+    "chingling": {
+        "types": [
+            15
+        ]
+    },
+    "stunky": {
+        "types": [
+            14,
+            2
+        ]
+    },
+    "skuntank": {
+        "types": [
+            14,
+            2
+        ]
+    },
+    "bronzor": {
+        "types": [
+            17,
+            15
+        ]
+    },
+    "bronzong": {
+        "types": [
+            17,
+            15
+        ]
+    },
+    "bonsly": {
+        "types": [
+            16
+        ]
+    },
+    "mime-jr": {
+        "types": [
+            15,
+            5
+        ]
+    },
+    "happiny": {
+        "types": [
+            13
+        ]
+    },
+    "chatot": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "spiritomb": {
+        "types": [
+            9,
+            2
+        ]
+    },
+    "gible": {
+        "types": [
+            3,
+            11
+        ]
+    },
+    "gabite": {
+        "types": [
+            3,
+            11
+        ]
+    },
+    "garchomp": {
+        "types": [
+            3,
+            11
+        ]
+    },
+    "mega-garchomp": {
+        "types": [
+            3,
+            11
+        ]
+    },
+    "munchlax": {
+        "types": [
+            13
+        ]
+    },
+    "riolu": {
+        "types": [
+            6
+        ]
+    },
+    "lucario": {
+        "types": [
+            6,
+            17
+        ]
+    },
+    "mega-lucario": {
+        "types": [
+            6,
+            17
+        ]
+    },
+    "hippopotas": {
+        "types": [
+            11
+        ]
+    },
+    "hippowdon": {
+        "types": [
+            11
+        ]
+    },
+    "skorupi": {
+        "types": [
+            14,
+            1
+        ]
+    },
+    "drapion": {
+        "types": [
+            14,
+            2
+        ]
+    },
+    "croagunk": {
+        "types": [
+            14,
+            6
+        ]
+    },
+    "toxicroak": {
+        "types": [
+            14,
+            6
+        ]
+    },
+    "carnivine": {
+        "types": [
+            10
+        ]
+    },
+    "finneon": {
+        "types": [
+            18
+        ]
+    },
+    "lumineon": {
+        "types": [
+            18
+        ]
+    },
+    "mantyke": {
+        "types": [
+            18,
+            8
+        ]
+    },
+    "snover": {
+        "types": [
+            10,
+            12
+        ]
+    },
+    "abomasnow": {
+        "types": [
+            10,
+            12
+        ]
+    },
+    "mega-abomasnow": {
+        "types": [
+            10,
+            12
+        ]
+    },
+    "weavile": {
+        "types": [
+            2,
+            12
+        ]
+    },
+    "magnezone": {
+        "types": [
+            4,
+            17
+        ]
+    },
+    "lickilicky": {
+        "types": [
+            13
+        ]
+    },
+    "rhyperior": {
+        "types": [
+            11,
+            16
+        ]
+    },
+    "tangrowth": {
+        "types": [
+            10
+        ]
+    },
+    "electivire": {
+        "types": [
+            4
+        ]
+    },
+    "magmortar": {
+        "types": [
+            7
+        ]
+    },
+    "togekiss": {
+        "types": [
+            5,
+            8
+        ]
+    },
+    "yanmega": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "leafeon": {
+        "types": [
+            10
+        ]
+    },
+    "glaceon": {
+        "types": [
+            12
+        ]
+    },
+    "gliscor": {
+        "types": [
+            11,
+            8
+        ]
+    },
+    "mamoswine": {
+        "types": [
+            12,
+            11
+        ]
+    },
+    "porygon-z": {
+        "types": [
+            13
+        ]
+    },
+    "gallade": {
+        "types": [
+            15,
+            6
+        ]
+    },
+    "mega-gallade": {
+        "types": [
+            15,
+            6
+        ]
+    },
+    "probopass": {
+        "types": [
+            16,
+            17
+        ]
+    },
+    "dusknoir": {
+        "types": [
+            9
+        ]
+    },
+    "froslass": {
+        "types": [
+            12,
+            9
+        ]
+    },
+    "rotom": {
+        "types": [
+            4,
+            9
+        ]
+    },
+    "rotom-heat-rotom": {
+        "types": [
+            4,
+            7
+        ]
+    },
+    "rotom-wash-rotom": {
+        "types": [
+            4,
+            18
+        ]
+    },
+    "rotom-frost-rotom": {
+        "types": [
+            4,
+            12
+        ]
+    },
+    "rotom-fan-rotom": {
+        "types": [
+            4,
+            8
+        ]
+    },
+    "rotom-mow-rotom": {
+        "types": [
+            4,
+            10
+        ]
+    },
+    "uxie": {
+        "types": [
+            15
+        ]
+    },
+    "mesprit": {
+        "types": [
+            15
+        ]
+    },
+    "azelf": {
+        "types": [
+            15
+        ]
+    },
+    "dialga": {
+        "types": [
+            17,
+            3
+        ]
+    },
+    "dialga-origin-forme": {
+        "types": [
+            17,
+            3
+        ]
+    },
+    "palkia": {
+        "types": [
+            18,
+            3
+        ]
+    },
+    "palkia-origin-forme": {
+        "types": [
+            18,
+            3
+        ]
+    },
+    "heatran": {
+        "types": [
+            7,
+            17
+        ]
+    },
+    "regigigas": {
+        "types": [
+            13
+        ]
+    },
+    "giratina-altered-forme": {
+        "types": [
+            9,
+            3
+        ]
+    },
+    "giratina-origin-forme": {
+        "types": [
+            9,
+            3
+        ]
+    },
+    "cresselia": {
+        "types": [
+            15
+        ]
+    },
+    "phione": {
+        "types": [
+            18
+        ]
+    },
+    "manaphy": {
+        "types": [
+            18
+        ]
+    },
+    "darkrai": {
+        "types": [
+            2
+        ]
+    },
+    "shaymin-land-forme": {
+        "types": [
+            10
+        ]
+    },
+    "shaymin-sky-forme": {
+        "types": [
+            10,
+            8
+        ]
+    },
+    "arceus": {
+        "types": [
+            13
+        ]
+    },
+    "victini": {
+        "types": [
+            15,
+            7
+        ]
+    },
+    "snivy": {
+        "types": [
+            10
+        ]
+    },
+    "servine": {
+        "types": [
+            10
+        ]
+    },
+    "serperior": {
+        "types": [
+            10
+        ]
+    },
+    "tepig": {
+        "types": [
+            7
+        ]
+    },
+    "pignite": {
+        "types": [
+            7,
+            6
+        ]
+    },
+    "emboar": {
+        "types": [
+            7,
+            6
+        ]
+    },
+    "oshawott": {
+        "types": [
+            18
+        ]
+    },
+    "dewott": {
+        "types": [
+            18
+        ]
+    },
+    "samurott": {
+        "types": [
+            18
+        ]
+    },
+    "hisuian-samurott": {
+        "types": [
+            18,
+            2
+        ]
+    },
+    "patrat": {
+        "types": [
+            13
+        ]
+    },
+    "watchog": {
+        "types": [
+            13
+        ]
+    },
+    "lillipup": {
+        "types": [
+            13
+        ]
+    },
+    "herdier": {
+        "types": [
+            13
+        ]
+    },
+    "stoutland": {
+        "types": [
+            13
+        ]
+    },
+    "purrloin": {
+        "types": [
+            2
+        ]
+    },
+    "liepard": {
+        "types": [
+            2
+        ]
+    },
+    "pansage": {
+        "types": [
+            10
+        ]
+    },
+    "simisage": {
+        "types": [
+            10
+        ]
+    },
+    "pansear": {
+        "types": [
+            7
+        ]
+    },
+    "simisear": {
+        "types": [
+            7
+        ]
+    },
+    "panpour": {
+        "types": [
+            18
+        ]
+    },
+    "simipour": {
+        "types": [
+            18
+        ]
+    },
+    "munna": {
+        "types": [
+            15
+        ]
+    },
+    "musharna": {
+        "types": [
+            15
+        ]
+    },
+    "pidove": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "tranquill": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "unfezant": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "blitzle": {
+        "types": [
+            4
+        ]
+    },
+    "zebstrika": {
+        "types": [
+            4
+        ]
+    },
+    "roggenrola": {
+        "types": [
+            16
+        ]
+    },
+    "boldore": {
+        "types": [
+            16
+        ]
+    },
+    "gigalith": {
+        "types": [
+            16
+        ]
+    },
+    "woobat": {
+        "types": [
+            15,
+            8
+        ]
+    },
+    "swoobat": {
+        "types": [
+            15,
+            8
+        ]
+    },
+    "drilbur": {
+        "types": [
+            11
+        ]
+    },
+    "excadrill": {
+        "types": [
+            11,
+            17
+        ]
+    },
+    "audino": {
+        "types": [
+            13
+        ]
+    },
+    "mega-audino": {
+        "types": [
+            13,
+            5
+        ]
+    },
+    "timburr": {
+        "types": [
+            6
+        ]
+    },
+    "gurdurr": {
+        "types": [
+            6
+        ]
+    },
+    "conkeldurr": {
+        "types": [
+            6
+        ]
+    },
+    "tympole": {
+        "types": [
+            18
+        ]
+    },
+    "palpitoad": {
+        "types": [
+            18,
+            11
+        ]
+    },
+    "seismitoad": {
+        "types": [
+            18,
+            11
+        ]
+    },
+    "throh": {
+        "types": [
+            6
+        ]
+    },
+    "sawk": {
+        "types": [
+            6
+        ]
+    },
+    "sewaddle": {
+        "types": [
+            1,
+            10
+        ]
+    },
+    "swadloon": {
+        "types": [
+            1,
+            10
+        ]
+    },
+    "leavanny": {
+        "types": [
+            1,
+            10
+        ]
+    },
+    "venipede": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "whirlipede": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "scolipede": {
+        "types": [
+            1,
+            14
+        ]
+    },
+    "cottonee": {
+        "types": [
+            10,
+            5
+        ]
+    },
+    "whimsicott": {
+        "types": [
+            10,
+            5
+        ]
+    },
+    "petilil": {
+        "types": [
+            10
+        ]
+    },
+    "lilligant": {
+        "types": [
+            10
+        ]
+    },
+    "hisuian-lilligant": {
+        "types": [
+            10,
+            6
+        ]
+    },
+    "basculin-red-striped-form": {
+        "types": [
+            18
+        ]
+    },
+    "basculin-blue-striped-form": {
+        "types": [
+            18
+        ]
+    },
+    "basculin-white-striped-form": {
+        "types": [
+            18
+        ]
+    },
+    "sandile": {
+        "types": [
+            11,
+            2
+        ]
+    },
+    "krokorok": {
+        "types": [
+            11,
+            2
+        ]
+    },
+    "krookodile": {
+        "types": [
+            11,
+            2
+        ]
+    },
+    "darumaka": {
+        "types": [
+            7
+        ]
+    },
+    "galarian-darumaka": {
+        "types": [
+            12
+        ]
+    },
+    "darmanitan-standard-mode": {
+        "types": [
+            7
+        ]
+    },
+    "darmanitan-zen-mode": {
+        "types": [
+            7,
+            15
+        ]
+    },
+    "galarian-standard-mode": {
+        "types": [
+            12
+        ]
+    },
+    "galarian-zen-mode": {
+        "types": [
+            12,
+            7
+        ]
+    },
+    "maractus": {
+        "types": [
+            10
+        ]
+    },
+    "dwebble": {
+        "types": [
+            1,
+            16
+        ]
+    },
+    "crustle": {
+        "types": [
+            1,
+            16
+        ]
+    },
+    "scraggy": {
+        "types": [
+            2,
+            6
+        ]
+    },
+    "scrafty": {
+        "types": [
+            2,
+            6
+        ]
+    },
+    "sigilyph": {
+        "types": [
+            15,
+            8
+        ]
+    },
+    "yamask": {
+        "types": [
+            9
+        ]
+    },
+    "galarian-yamask": {
+        "types": [
+            11,
+            9
+        ]
+    },
+    "cofagrigus": {
+        "types": [
+            9
+        ]
+    },
+    "tirtouga": {
+        "types": [
+            18,
+            16
+        ]
+    },
+    "carracosta": {
+        "types": [
+            18,
+            16
+        ]
+    },
+    "archen": {
+        "types": [
+            16,
+            8
+        ]
+    },
+    "archeops": {
+        "types": [
+            16,
+            8
+        ]
+    },
+    "trubbish": {
+        "types": [
+            14
+        ]
+    },
+    "garbodor": {
+        "types": [
+            14
+        ]
+    },
+    "zorua": {
+        "types": [
+            2
+        ]
+    },
+    "hisuian-zorua": {
+        "types": [
+            13,
+            9
+        ]
+    },
+    "zoroark": {
+        "types": [
+            2
+        ]
+    },
+    "hisuian-zoroark": {
+        "types": [
+            13,
+            9
+        ]
+    },
+    "minccino": {
+        "types": [
+            13
+        ]
+    },
+    "cinccino": {
+        "types": [
+            13
+        ]
+    },
+    "gothita": {
+        "types": [
+            15
+        ]
+    },
+    "gothorita": {
+        "types": [
+            15
+        ]
+    },
+    "gothitelle": {
+        "types": [
+            15
+        ]
+    },
+    "solosis": {
+        "types": [
+            15
+        ]
+    },
+    "duosion": {
+        "types": [
+            15
+        ]
+    },
+    "reuniclus": {
+        "types": [
+            15
+        ]
+    },
+    "ducklett": {
+        "types": [
+            18,
+            8
+        ]
+    },
+    "swanna": {
+        "types": [
+            18,
+            8
+        ]
+    },
+    "vanillite": {
+        "types": [
+            12
+        ]
+    },
+    "vanillish": {
+        "types": [
+            12
+        ]
+    },
+    "vanilluxe": {
+        "types": [
+            12
+        ]
+    },
+    "deerling": {
+        "types": [
+            13,
+            10
+        ]
+    },
+    "sawsbuck": {
+        "types": [
+            13,
+            10
+        ]
+    },
+    "emolga": {
+        "types": [
+            4,
+            8
+        ]
+    },
+    "karrablast": {
+        "types": [
+            1
+        ]
+    },
+    "escavalier": {
+        "types": [
+            1,
+            17
+        ]
+    },
+    "foongus": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "amoonguss": {
+        "types": [
+            10,
+            14
+        ]
+    },
+    "frillish": {
+        "types": [
+            18,
+            9
+        ]
+    },
+    "jellicent": {
+        "types": [
+            18,
+            9
+        ]
+    },
+    "alomomola": {
+        "types": [
+            18
+        ]
+    },
+    "joltik": {
+        "types": [
+            1,
+            4
+        ]
+    },
+    "galvantula": {
+        "types": [
+            1,
+            4
+        ]
+    },
+    "ferroseed": {
+        "types": [
+            10,
+            17
+        ]
+    },
+    "ferrothorn": {
+        "types": [
+            10,
+            17
+        ]
+    },
+    "klink": {
+        "types": [
+            17
+        ]
+    },
+    "klang": {
+        "types": [
+            17
+        ]
+    },
+    "klinklang": {
+        "types": [
+            17
+        ]
+    },
+    "tynamo": {
+        "types": [
+            4
+        ]
+    },
+    "eelektrik": {
+        "types": [
+            4
+        ]
+    },
+    "eelektross": {
+        "types": [
+            4
+        ]
+    },
+    "elgyem": {
+        "types": [
+            15
+        ]
+    },
+    "beheeyem": {
+        "types": [
+            15
+        ]
+    },
+    "litwick": {
+        "types": [
+            9,
+            7
+        ]
+    },
+    "lampent": {
+        "types": [
+            9,
+            7
+        ]
+    },
+    "chandelure": {
+        "types": [
+            9,
+            7
+        ]
+    },
+    "axew": {
+        "types": [
+            3
+        ]
+    },
+    "fraxure": {
+        "types": [
+            3
+        ]
+    },
+    "haxorus": {
+        "types": [
+            3
+        ]
+    },
+    "cubchoo": {
+        "types": [
+            12
+        ]
+    },
+    "beartic": {
+        "types": [
+            12
+        ]
+    },
+    "cryogonal": {
+        "types": [
+            12
+        ]
+    },
+    "shelmet": {
+        "types": [
+            1
+        ]
+    },
+    "accelgor": {
+        "types": [
+            1
+        ]
+    },
+    "stunfisk": {
+        "types": [
+            11,
+            4
+        ]
+    },
+    "galarian-stunfisk": {
+        "types": [
+            11,
+            17
+        ]
+    },
+    "mienfoo": {
+        "types": [
+            6
+        ]
+    },
+    "mienshao": {
+        "types": [
+            6
+        ]
+    },
+    "druddigon": {
+        "types": [
+            3
+        ]
+    },
+    "golett": {
+        "types": [
+            11,
+            9
+        ]
+    },
+    "golurk": {
+        "types": [
+            11,
+            9
+        ]
+    },
+    "pawniard": {
+        "types": [
+            2,
+            17
+        ]
+    },
+    "bisharp": {
+        "types": [
+            2,
+            17
+        ]
+    },
+    "bouffalant": {
+        "types": [
+            13
+        ]
+    },
+    "rufflet": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "braviary": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "hisuian-braviary": {
+        "types": [
+            15,
+            8
+        ]
+    },
+    "vullaby": {
+        "types": [
+            2,
+            8
+        ]
+    },
+    "mandibuzz": {
+        "types": [
+            2,
+            8
+        ]
+    },
+    "heatmor": {
+        "types": [
+            7
+        ]
+    },
+    "durant": {
+        "types": [
+            1,
+            17
+        ]
+    },
+    "deino": {
+        "types": [
+            2,
+            3
+        ]
+    },
+    "zweilous": {
+        "types": [
+            2,
+            3
+        ]
+    },
+    "hydreigon": {
+        "types": [
+            2,
+            3
+        ]
+    },
+    "larvesta": {
+        "types": [
+            1,
+            7
+        ]
+    },
+    "volcarona": {
+        "types": [
+            1,
+            7
+        ]
+    },
+    "cobalion": {
+        "types": [
+            17,
+            6
+        ]
+    },
+    "terrakion": {
+        "types": [
+            16,
+            6
+        ]
+    },
+    "virizion": {
+        "types": [
+            10,
+            6
+        ]
+    },
+    "tornadus-incarnate-forme": {
+        "types": [
+            8
+        ]
+    },
+    "tornadus-therian-forme": {
+        "types": [
+            8
+        ]
+    },
+    "thundurus-incarnate-forme": {
+        "types": [
+            4,
+            8
+        ]
+    },
+    "thundurus-therian-forme": {
+        "types": [
+            4,
+            8
+        ]
+    },
+    "reshiram": {
+        "types": [
+            3,
+            7
+        ]
+    },
+    "zekrom": {
+        "types": [
+            3,
+            4
+        ]
+    },
+    "landorus-incarnate-forme": {
+        "types": [
+            11,
+            8
+        ]
+    },
+    "landorus-therian-forme": {
+        "types": [
+            11,
+            8
+        ]
+    },
+    "kyurem": {
+        "types": [
+            3,
+            12
+        ]
+    },
+    "white-kyurem": {
+        "types": [
+            3,
+            12
+        ]
+    },
+    "black-kyurem": {
+        "types": [
+            3,
+            12
+        ]
+    },
+    "keldeo-ordinary-form": {
+        "types": [
+            18,
+            6
+        ]
+    },
+    "keldeo-resolute-form": {
+        "types": [
+            18,
+            6
+        ]
+    },
+    "meloetta-aria-forme": {
+        "types": [
+            13,
+            15
+        ]
+    },
+    "meloetta-pirouette-forme": {
+        "types": [
+            13,
+            6
+        ]
+    },
+    "genesect": {
+        "types": [
+            1,
+            17
+        ]
+    },
+    "chespin": {
+        "types": [
+            10
+        ]
+    },
+    "quilladin": {
+        "types": [
+            10
+        ]
+    },
+    "chesnaught": {
+        "types": [
+            10,
+            6
+        ]
+    },
+    "fennekin": {
+        "types": [
+            7
+        ]
+    },
+    "braixen": {
+        "types": [
+            7
+        ]
+    },
+    "delphox": {
+        "types": [
+            7,
+            15
+        ]
+    },
+    "froakie": {
+        "types": [
+            18
+        ]
+    },
+    "frogadier": {
+        "types": [
+            18
+        ]
+    },
+    "greninja": {
+        "types": [
+            18,
+            2
+        ]
+    },
+    "ash-greninja": {
+        "types": [
+            18,
+            2
+        ]
+    },
+    "bunnelby": {
+        "types": [
+            13
+        ]
+    },
+    "diggersby": {
+        "types": [
+            13,
+            11
+        ]
+    },
+    "fletchling": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "fletchinder": {
+        "types": [
+            7,
+            8
+        ]
+    },
+    "talonflame": {
+        "types": [
+            7,
+            8
+        ]
+    },
+    "scatterbug": {
+        "types": [
+            1
+        ]
+    },
+    "spewpa": {
+        "types": [
+            1
+        ]
+    },
+    "vivillon": {
+        "types": [
+            1,
+            8
+        ]
+    },
+    "litleo": {
+        "types": [
+            7,
+            13
+        ]
+    },
+    "pyroar": {
+        "types": [
+            7,
+            13
+        ]
+    },
+    "flabebe": {
+        "types": [
+            5
+        ]
+    },
+    "floette": {
+        "types": [
+            5
+        ]
+    },
+    "florges": {
+        "types": [
+            5
+        ]
+    },
+    "skiddo": {
+        "types": [
+            10
+        ]
+    },
+    "gogoat": {
+        "types": [
+            10
+        ]
+    },
+    "pancham": {
+        "types": [
+            6
+        ]
+    },
+    "pangoro": {
+        "types": [
+            6,
+            2
+        ]
+    },
+    "furfrou": {
+        "types": [
+            13
+        ]
+    },
+    "espurr": {
+        "types": [
+            15
+        ]
+    },
+    "meowstic-male": {
+        "types": [
+            15
+        ]
+    },
+    "meowstic-female": {
+        "types": [
+            15
+        ]
+    },
+    "honedge": {
+        "types": [
+            17,
+            9
+        ]
+    },
+    "doublade": {
+        "types": [
+            17,
+            9
+        ]
+    },
+    "aegislash-shield-forme": {
+        "types": [
+            17,
+            9
+        ]
+    },
+    "aegislash-blade-forme": {
+        "types": [
+            17,
+            9
+        ]
+    },
+    "spritzee": {
+        "types": [
+            5
+        ]
+    },
+    "aromatisse": {
+        "types": [
+            5
+        ]
+    },
+    "swirlix": {
+        "types": [
+            5
+        ]
+    },
+    "slurpuff": {
+        "types": [
+            5
+        ]
+    },
+    "inkay": {
+        "types": [
+            2,
+            15
+        ]
+    },
+    "malamar": {
+        "types": [
+            2,
+            15
+        ]
+    },
+    "binacle": {
+        "types": [
+            16,
+            18
+        ]
+    },
+    "barbaracle": {
+        "types": [
+            16,
+            18
+        ]
+    },
+    "skrelp": {
+        "types": [
+            14,
+            18
+        ]
+    },
+    "dragalge": {
+        "types": [
+            14,
+            3
+        ]
+    },
+    "clauncher": {
+        "types": [
+            18
+        ]
+    },
+    "clawitzer": {
+        "types": [
+            18
+        ]
+    },
+    "helioptile": {
+        "types": [
+            4,
+            13
+        ]
+    },
+    "heliolisk": {
+        "types": [
+            4,
+            13
+        ]
+    },
+    "tyrunt": {
+        "types": [
+            16,
+            3
+        ]
+    },
+    "tyrantrum": {
+        "types": [
+            16,
+            3
+        ]
+    },
+    "amaura": {
+        "types": [
+            16,
+            12
+        ]
+    },
+    "aurorus": {
+        "types": [
+            16,
+            12
+        ]
+    },
+    "sylveon": {
+        "types": [
+            5
+        ]
+    },
+    "hawlucha": {
+        "types": [
+            6,
+            8
+        ]
+    },
+    "dedenne": {
+        "types": [
+            4,
+            5
+        ]
+    },
+    "carbink": {
+        "types": [
+            16,
+            5
+        ]
+    },
+    "goomy": {
+        "types": [
+            3
+        ]
+    },
+    "sliggoo": {
+        "types": [
+            3
+        ]
+    },
+    "hisuian-sliggoo": {
+        "types": [
+            17,
+            3
+        ]
+    },
+    "goodra": {
+        "types": [
+            3
+        ]
+    },
+    "hisuian-goodra": {
+        "types": [
+            17,
+            3
+        ]
+    },
+    "klefki": {
+        "types": [
+            17,
+            5
+        ]
+    },
+    "phantump": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "trevenant": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "pumpkaboo-average-size": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "pumpkaboo-small-size": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "pumpkaboo-large-size": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "pumpkaboo-super-size": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "gourgeist-average-size": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "gourgeist-small-size": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "gourgeist-large-size": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "gourgeist-super-size": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "bergmite": {
+        "types": [
+            12
+        ]
+    },
+    "avalugg": {
+        "types": [
+            12
+        ]
+    },
+    "hisuian-avalugg": {
+        "types": [
+            12,
+            16
+        ]
+    },
+    "noibat": {
+        "types": [
+            8,
+            3
+        ]
+    },
+    "noivern": {
+        "types": [
+            8,
+            3
+        ]
+    },
+    "xerneas": {
+        "types": [
+            5
+        ]
+    },
+    "yveltal": {
+        "types": [
+            2,
+            8
+        ]
+    },
+    "zygarde-50%-forme": {
+        "types": [
+            3,
+            11
+        ]
+    },
+    "zygarde-10%-forme": {
+        "types": [
+            3,
+            11
+        ]
+    },
+    "zygarde-complete-forme": {
+        "types": [
+            3,
+            11
+        ]
+    },
+    "diancie": {
+        "types": [
+            16,
+            5
+        ]
+    },
+    "mega-diancie": {
+        "types": [
+            16,
+            5
+        ]
+    },
+    "hoopa-hoopa-confined": {
+        "types": [
+            15,
+            9
+        ]
+    },
+    "hoopa-hoopa-unbound": {
+        "types": [
+            15,
+            2
+        ]
+    },
+    "volcanion": {
+        "types": [
+            7,
+            18
+        ]
+    },
+    "rowlet": {
+        "types": [
+            10,
+            8
+        ]
+    },
+    "dartrix": {
+        "types": [
+            10,
+            8
+        ]
+    },
+    "decidueye": {
+        "types": [
+            10,
+            9
+        ]
+    },
+    "hisuian-decidueye": {
+        "types": [
+            10,
+            6
+        ]
+    },
+    "litten": {
+        "types": [
+            7
+        ]
+    },
+    "torracat": {
+        "types": [
+            7
+        ]
+    },
+    "incineroar": {
+        "types": [
+            7,
+            2
+        ]
+    },
+    "popplio": {
+        "types": [
+            18
+        ]
+    },
+    "brionne": {
+        "types": [
+            18
+        ]
+    },
+    "primarina": {
+        "types": [
+            18,
+            5
+        ]
+    },
+    "pikipek": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "trumbeak": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "toucannon": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "yungoos": {
+        "types": [
+            13
+        ]
+    },
+    "gumshoos": {
+        "types": [
+            13
+        ]
+    },
+    "grubbin": {
+        "types": [
+            1
+        ]
+    },
+    "charjabug": {
+        "types": [
+            1,
+            4
+        ]
+    },
+    "vikavolt": {
+        "types": [
+            1,
+            4
+        ]
+    },
+    "crabrawler": {
+        "types": [
+            6
+        ]
+    },
+    "crabominable": {
+        "types": [
+            6,
+            12
+        ]
+    },
+    "oricorio-baile-style": {
+        "types": [
+            7,
+            8
+        ]
+    },
+    "oricorio-pom-pom-style": {
+        "types": [
+            4,
+            8
+        ]
+    },
+    "oricorio-pa'u-style": {
+        "types": [
+            15,
+            8
+        ]
+    },
+    "oricorio-sensu-style": {
+        "types": [
+            9,
+            8
+        ]
+    },
+    "cutiefly": {
+        "types": [
+            1,
+            5
+        ]
+    },
+    "ribombee": {
+        "types": [
+            1,
+            5
+        ]
+    },
+    "rockruff": {
+        "types": [
+            16
+        ]
+    },
+    "rockruff-own-tempo-rockruff": {
+        "types": [
+            16
+        ]
+    },
+    "lycanroc-midday-form": {
+        "types": [
+            16
+        ]
+    },
+    "lycanroc-midnight-form": {
+        "types": [
+            16
+        ]
+    },
+    "lycanroc-dusk-form": {
+        "types": [
+            16
+        ]
+    },
+    "wishiwashi-solo-form": {
+        "types": [
+            18
+        ]
+    },
+    "wishiwashi-school-form": {
+        "types": [
+            18
+        ]
+    },
+    "mareanie": {
+        "types": [
+            14,
+            18
+        ]
+    },
+    "toxapex": {
+        "types": [
+            14,
+            18
+        ]
+    },
+    "mudbray": {
+        "types": [
+            11
+        ]
+    },
+    "mudsdale": {
+        "types": [
+            11
+        ]
+    },
+    "dewpider": {
+        "types": [
+            18,
+            1
+        ]
+    },
+    "araquanid": {
+        "types": [
+            18,
+            1
+        ]
+    },
+    "fomantis": {
+        "types": [
+            10
+        ]
+    },
+    "lurantis": {
+        "types": [
+            10
+        ]
+    },
+    "morelull": {
+        "types": [
+            10,
+            5
+        ]
+    },
+    "shiinotic": {
+        "types": [
+            10,
+            5
+        ]
+    },
+    "salandit": {
+        "types": [
+            14,
+            7
+        ]
+    },
+    "salazzle": {
+        "types": [
+            14,
+            7
+        ]
+    },
+    "stufful": {
+        "types": [
+            13,
+            6
+        ]
+    },
+    "bewear": {
+        "types": [
+            13,
+            6
+        ]
+    },
+    "bounsweet": {
+        "types": [
+            10
+        ]
+    },
+    "steenee": {
+        "types": [
+            10
+        ]
+    },
+    "tsareena": {
+        "types": [
+            10
+        ]
+    },
+    "comfey": {
+        "types": [
+            5
+        ]
+    },
+    "oranguru": {
+        "types": [
+            13,
+            15
+        ]
+    },
+    "passimian": {
+        "types": [
+            6
+        ]
+    },
+    "wimpod": {
+        "types": [
+            1,
+            18
+        ]
+    },
+    "golisopod": {
+        "types": [
+            1,
+            18
+        ]
+    },
+    "sandygast": {
+        "types": [
+            9,
+            11
+        ]
+    },
+    "palossand": {
+        "types": [
+            9,
+            11
+        ]
+    },
+    "pyukumuku": {
+        "types": [
+            18
+        ]
+    },
+    "type-null": {
+        "types": [
+            13
+        ]
+    },
+    "silvally": {
+        "types": [
+            13
+        ]
+    },
+    "minior-meteor-form": {
+        "types": [
+            16,
+            8
+        ]
+    },
+    "minior-core-form": {
+        "types": [
+            16,
+            8
+        ]
+    },
+    "komala": {
+        "types": [
+            13
+        ]
+    },
+    "turtonator": {
+        "types": [
+            7,
+            3
+        ]
+    },
+    "togedemaru": {
+        "types": [
+            4,
+            17
+        ]
+    },
+    "mimikyu": {
+        "types": [
+            9,
+            5
+        ]
+    },
+    "bruxish": {
+        "types": [
+            18,
+            15
+        ]
+    },
+    "drampa": {
+        "types": [
+            13,
+            3
+        ]
+    },
+    "dhelmise": {
+        "types": [
+            9,
+            10
+        ]
+    },
+    "jangmo-o": {
+        "types": [
+            3
+        ]
+    },
+    "hakamo-o": {
+        "types": [
+            3,
+            6
+        ]
+    },
+    "kommo-o": {
+        "types": [
+            3,
+            6
+        ]
+    },
+    "tapu-koko": {
+        "types": [
+            4,
+            5
+        ]
+    },
+    "tapu-lele": {
+        "types": [
+            15,
+            5
+        ]
+    },
+    "tapu-bulu": {
+        "types": [
+            10,
+            5
+        ]
+    },
+    "tapu-fini": {
+        "types": [
+            18,
+            5
+        ]
+    },
+    "cosmog": {
+        "types": [
+            15
+        ]
+    },
+    "cosmoem": {
+        "types": [
+            15
+        ]
+    },
+    "solgaleo": {
+        "types": [
+            15,
+            17
+        ]
+    },
+    "lunala": {
+        "types": [
+            15,
+            9
+        ]
+    },
+    "nihilego": {
+        "types": [
+            16,
+            14
+        ]
+    },
+    "buzzwole": {
+        "types": [
+            1,
+            6
+        ]
+    },
+    "pheromosa": {
+        "types": [
+            1,
+            6
+        ]
+    },
+    "xurkitree": {
+        "types": [
+            4
+        ]
+    },
+    "celesteela": {
+        "types": [
+            17,
+            8
+        ]
+    },
+    "kartana": {
+        "types": [
+            10,
+            17
+        ]
+    },
+    "guzzlord": {
+        "types": [
+            2,
+            3
+        ]
+    },
+    "necrozma": {
+        "types": [
+            15
+        ]
+    },
+    "dusk-mane-necrozma": {
+        "types": [
+            15,
+            17
+        ]
+    },
+    "dawn-wings-necrozma": {
+        "types": [
+            15,
+            9
+        ]
+    },
+    "ultra-necrozma": {
+        "types": [
+            15,
+            3
+        ]
+    },
+    "magearna": {
+        "types": [
+            17,
+            5
+        ]
+    },
+    "marshadow": {
+        "types": [
+            6,
+            9
+        ]
+    },
+    "poipole": {
+        "types": [
+            14
+        ]
+    },
+    "naganadel": {
+        "types": [
+            14,
+            3
+        ]
+    },
+    "stakataka": {
+        "types": [
+            16,
+            17
+        ]
+    },
+    "blacephalon": {
+        "types": [
+            7,
+            9
+        ]
+    },
+    "zeraora": {
+        "types": [
+            4
+        ]
+    },
+    "meltan": {
+        "types": [
+            17
+        ]
+    },
+    "melmetal": {
+        "types": [
+            17
+        ]
+    },
+    "grookey": {
+        "types": [
+            10
+        ]
+    },
+    "thwackey": {
+        "types": [
+            10
+        ]
+    },
+    "rillaboom": {
+        "types": [
+            10
+        ]
+    },
+    "scorbunny": {
+        "types": [
+            7
+        ]
+    },
+    "raboot": {
+        "types": [
+            7
+        ]
+    },
+    "cinderace": {
+        "types": [
+            7
+        ]
+    },
+    "sobble": {
+        "types": [
+            18
+        ]
+    },
+    "drizzile": {
+        "types": [
+            18
+        ]
+    },
+    "inteleon": {
+        "types": [
+            18
+        ]
+    },
+    "skwovet": {
+        "types": [
+            13
+        ]
+    },
+    "greedent": {
+        "types": [
+            13
+        ]
+    },
+    "rookidee": {
+        "types": [
+            8
+        ]
+    },
+    "corvisquire": {
+        "types": [
+            8
+        ]
+    },
+    "corviknight": {
+        "types": [
+            8,
+            17
+        ]
+    },
+    "blipbug": {
+        "types": [
+            1
+        ]
+    },
+    "dottler": {
+        "types": [
+            1,
+            15
+        ]
+    },
+    "orbeetle": {
+        "types": [
+            1,
+            15
+        ]
+    },
+    "nickit": {
+        "types": [
+            2
+        ]
+    },
+    "thievul": {
+        "types": [
+            2
+        ]
+    },
+    "gossifleur": {
+        "types": [
+            10
+        ]
+    },
+    "eldegoss": {
+        "types": [
+            10
+        ]
+    },
+    "wooloo": {
+        "types": [
+            13
+        ]
+    },
+    "dubwool": {
+        "types": [
+            13
+        ]
+    },
+    "chewtle": {
+        "types": [
+            18
+        ]
+    },
+    "drednaw": {
+        "types": [
+            18,
+            16
+        ]
+    },
+    "yamper": {
+        "types": [
+            4
+        ]
+    },
+    "boltund": {
+        "types": [
+            4
+        ]
+    },
+    "rolycoly": {
+        "types": [
+            16
+        ]
+    },
+    "carkol": {
+        "types": [
+            16,
+            7
+        ]
+    },
+    "coalossal": {
+        "types": [
+            16,
+            7
+        ]
+    },
+    "applin": {
+        "types": [
+            10,
+            3
+        ]
+    },
+    "flapple": {
+        "types": [
+            10,
+            3
+        ]
+    },
+    "appletun": {
+        "types": [
+            10,
+            3
+        ]
+    },
+    "silicobra": {
+        "types": [
+            11
+        ]
+    },
+    "sandaconda": {
+        "types": [
+            11
+        ]
+    },
+    "cramorant": {
+        "types": [
+            8,
+            18
+        ]
+    },
+    "arrokuda": {
+        "types": [
+            18
+        ]
+    },
+    "barraskewda": {
+        "types": [
+            18
+        ]
+    },
+    "toxel": {
+        "types": [
+            4,
+            14
+        ]
+    },
+    "toxtricity-amped-form": {
+        "types": [
+            4,
+            14
+        ]
+    },
+    "toxtricity-low-key-form": {
+        "types": [
+            4,
+            14
+        ]
+    },
+    "sizzlipede": {
+        "types": [
+            7,
+            1
+        ]
+    },
+    "centiskorch": {
+        "types": [
+            7,
+            1
+        ]
+    },
+    "clobbopus": {
+        "types": [
+            6
+        ]
+    },
+    "grapploct": {
+        "types": [
+            6
+        ]
+    },
+    "sinistea": {
+        "types": [
+            9
+        ]
+    },
+    "polteageist": {
+        "types": [
+            9
+        ]
+    },
+    "hatenna": {
+        "types": [
+            15
+        ]
+    },
+    "hattrem": {
+        "types": [
+            15
+        ]
+    },
+    "hatterene": {
+        "types": [
+            15,
+            5
+        ]
+    },
+    "impidimp": {
+        "types": [
+            2,
+            5
+        ]
+    },
+    "morgrem": {
+        "types": [
+            2,
+            5
+        ]
+    },
+    "grimmsnarl": {
+        "types": [
+            2,
+            5
+        ]
+    },
+    "obstagoon": {
+        "types": [
+            2,
+            13
+        ]
+    },
+    "perrserker": {
+        "types": [
+            17
+        ]
+    },
+    "cursola": {
+        "types": [
+            9
+        ]
+    },
+    "sirfetchd": {
+        "types": [
+            6
+        ]
+    },
+    "mr-rime": {
+        "types": [
+            12,
+            15
+        ]
+    },
+    "runerigus": {
+        "types": [
+            11,
+            9
+        ]
+    },
+    "milcery": {
+        "types": [
+            5
+        ]
+    },
+    "alcremie": {
+        "types": [
+            5
+        ]
+    },
+    "falinks": {
+        "types": [
+            6
+        ]
+    },
+    "pincurchin": {
+        "types": [
+            4
+        ]
+    },
+    "snom": {
+        "types": [
+            12,
+            1
+        ]
+    },
+    "frosmoth": {
+        "types": [
+            12,
+            1
+        ]
+    },
+    "stonjourner": {
+        "types": [
+            16
+        ]
+    },
+    "eiscue-ice-face": {
+        "types": [
+            12
+        ]
+    },
+    "eiscue-noice-face": {
+        "types": [
+            12
+        ]
+    },
+    "indeedee-male": {
+        "types": [
+            15,
+            13
+        ]
+    },
+    "indeedee-female": {
+        "types": [
+            15,
+            13
+        ]
+    },
+    "morpeko-full-belly-mode": {
+        "types": [
+            4,
+            2
+        ]
+    },
+    "morpeko-hangry-mode": {
+        "types": [
+            4,
+            2
+        ]
+    },
+    "cufant": {
+        "types": [
+            17
+        ]
+    },
+    "copperajah": {
+        "types": [
+            17
+        ]
+    },
+    "dracozolt": {
+        "types": [
+            4,
+            3
+        ]
+    },
+    "arctozolt": {
+        "types": [
+            4,
+            12
+        ]
+    },
+    "dracovish": {
+        "types": [
+            18,
+            3
+        ]
+    },
+    "arctovish": {
+        "types": [
+            18,
+            12
+        ]
+    },
+    "duraludon": {
+        "types": [
+            17,
+            3
+        ]
+    },
+    "dreepy": {
+        "types": [
+            3,
+            9
+        ]
+    },
+    "drakloak": {
+        "types": [
+            3,
+            9
+        ]
+    },
+    "dragapult": {
+        "types": [
+            3,
+            9
+        ]
+    },
+    "zacian-hero-of-many-battles": {
+        "types": [
+            5
+        ]
+    },
+    "zacian-crowned-sword": {
+        "types": [
+            5,
+            17
+        ]
+    },
+    "zamazenta-hero-of-many-battles": {
+        "types": [
+            6
+        ]
+    },
+    "zamazenta-crowned-shield": {
+        "types": [
+            6,
+            17
+        ]
+    },
+    "eternatus": {
+        "types": [
+            14,
+            3
+        ]
+    },
+    "eternatus-eternamax": {
+        "types": [
+            14,
+            3
+        ]
+    },
+    "kubfu": {
+        "types": [
+            6
+        ]
+    },
+    "urshifu-single-strike-style": {
+        "types": [
+            6,
+            2
+        ]
+    },
+    "urshifu-rapid-strike-style": {
+        "types": [
+            6,
+            18
+        ]
+    },
+    "zarude": {
+        "types": [
+            2,
+            10
+        ]
+    },
+    "regieleki": {
+        "types": [
+            4
+        ]
+    },
+    "regidrago": {
+        "types": [
+            3
+        ]
+    },
+    "glastrier": {
+        "types": [
+            12
+        ]
+    },
+    "spectrier": {
+        "types": [
+            9
+        ]
+    },
+    "calyrex": {
+        "types": [
+            15,
+            10
+        ]
+    },
+    "calyrex-ice-rider": {
+        "types": [
+            15,
+            12
+        ]
+    },
+    "calyrex-shadow-rider": {
+        "types": [
+            15,
+            9
+        ]
+    },
+    "wyrdeer": {
+        "types": [
+            13,
+            15
+        ]
+    },
+    "kleavor": {
+        "types": [
+            1,
+            16
+        ]
+    },
+    "ursaluna": {
+        "types": [
+            11,
+            13
+        ]
+    },
+    "ursaluna-bloodmoon": {
+        "types": [
+            11,
+            13
+        ]
+    },
+    "basculegion-male": {
+        "types": [
+            18,
+            9
+        ]
+    },
+    "basculegion-female": {
+        "types": [
+            18,
+            9
+        ]
+    },
+    "sneasler": {
+        "types": [
+            6,
+            14
+        ]
+    },
+    "overqwil": {
+        "types": [
+            2,
+            14
+        ]
+    },
+    "enamorus-incarnate-forme": {
+        "types": [
+            5,
+            8
+        ]
+    },
+    "enamorus-therian-forme": {
+        "types": [
+            5,
+            8
+        ]
+    },
+    "sprigatito": {
+        "types": [
+            10
+        ]
+    },
+    "floragato": {
+        "types": [
+            10
+        ]
+    },
+    "meowscarada": {
+        "types": [
+            10,
+            2
+        ]
+    },
+    "fuecoco": {
+        "types": [
+            7
+        ]
+    },
+    "crocalor": {
+        "types": [
+            7
+        ]
+    },
+    "skeledirge": {
+        "types": [
+            7,
+            9
+        ]
+    },
+    "quaxly": {
+        "types": [
+            18
+        ]
+    },
+    "quaxwell": {
+        "types": [
+            18
+        ]
+    },
+    "quaquaval": {
+        "types": [
+            18,
+            6
+        ]
+    },
+    "lechonk": {
+        "types": [
+            13
+        ]
+    },
+    "oinkologne-male": {
+        "types": [
+            13
+        ]
+    },
+    "oinkologne-female": {
+        "types": [
+            13
+        ]
+    },
+    "tarountula": {
+        "types": [
+            1
+        ]
+    },
+    "spidops": {
+        "types": [
+            1
+        ]
+    },
+    "nymble": {
+        "types": [
+            1
+        ]
+    },
+    "lokix": {
+        "types": [
+            1,
+            2
+        ]
+    },
+    "pawmi": {
+        "types": [
+            4
+        ]
+    },
+    "pawmo": {
+        "types": [
+            4,
+            6
+        ]
+    },
+    "pawmot": {
+        "types": [
+            4,
+            6
+        ]
+    },
+    "tandemaus": {
+        "types": [
+            13
+        ]
+    },
+    "maushold-family-of-four": {
+        "types": [
+            13
+        ]
+    },
+    "maushold-family-of-three": {
+        "types": [
+            13
+        ]
+    },
+    "fidough": {
+        "types": [
+            5
+        ]
+    },
+    "dachsbun": {
+        "types": [
+            5
+        ]
+    },
+    "smoliv": {
+        "types": [
+            10,
+            13
+        ]
+    },
+    "dolliv": {
+        "types": [
+            10,
+            13
+        ]
+    },
+    "arboliva": {
+        "types": [
+            10,
+            13
+        ]
+    },
+    "squawkabilly-green-plumage": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "squawkabilly-blue-plumage": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "squawkabilly-yellow-plumage": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "squawkabilly-white-plumage": {
+        "types": [
+            13,
+            8
+        ]
+    },
+    "nacli": {
+        "types": [
+            16
+        ]
+    },
+    "naclstack": {
+        "types": [
+            16
+        ]
+    },
+    "garganacl": {
+        "types": [
+            16
+        ]
+    },
+    "charcadet": {
+        "types": [
+            7
+        ]
+    },
+    "armarouge": {
+        "types": [
+            7,
+            15
+        ]
+    },
+    "ceruledge": {
+        "types": [
+            7,
+            9
+        ]
+    },
+    "tadbulb": {
+        "types": [
+            4
+        ]
+    },
+    "bellibolt": {
+        "types": [
+            4
+        ]
+    },
+    "wattrel": {
+        "types": [
+            4,
+            8
+        ]
+    },
+    "kilowattrel": {
+        "types": [
+            4,
+            8
+        ]
+    },
+    "maschiff": {
+        "types": [
+            2
+        ]
+    },
+    "mabosstiff": {
+        "types": [
+            2
+        ]
+    },
+    "shroodle": {
+        "types": [
+            14,
+            13
+        ]
+    },
+    "grafaiai": {
+        "types": [
+            14,
+            13
+        ]
+    },
+    "bramblin": {
+        "types": [
+            10,
+            9
+        ]
+    },
+    "brambleghast": {
+        "types": [
+            10,
+            9
+        ]
+    },
+    "toedscool": {
+        "types": [
+            11,
+            10
+        ]
+    },
+    "toedscruel": {
+        "types": [
+            11,
+            10
+        ]
+    },
+    "klawf": {
+        "types": [
+            16
+        ]
+    },
+    "capsakid": {
+        "types": [
+            10
+        ]
+    },
+    "scovillain": {
+        "types": [
+            10,
+            7
+        ]
+    },
+    "rellor": {
+        "types": [
+            1
+        ]
+    },
+    "rabsca": {
+        "types": [
+            1,
+            15
+        ]
+    },
+    "flittle": {
+        "types": [
+            15
+        ]
+    },
+    "espathra": {
+        "types": [
+            15
+        ]
+    },
+    "tinkatink": {
+        "types": [
+            5,
+            17
+        ]
+    },
+    "tinkatuff": {
+        "types": [
+            5,
+            17
+        ]
+    },
+    "tinkaton": {
+        "types": [
+            5,
+            17
+        ]
+    },
+    "wiglett": {
+        "types": [
+            18
+        ]
+    },
+    "wugtrio": {
+        "types": [
+            18
+        ]
+    },
+    "bombirdier": {
+        "types": [
+            8,
+            2
+        ]
+    },
+    "finizen": {
+        "types": [
+            18
+        ]
+    },
+    "palafin-zero-form": {
+        "types": [
+            18
+        ]
+    },
+    "palafin-hero-form": {
+        "types": [
+            18
+        ]
+    },
+    "varoom": {
+        "types": [
+            17,
+            14
+        ]
+    },
+    "revavroom": {
+        "types": [
+            17,
+            14
+        ]
+    },
+    "cyclizar": {
+        "types": [
+            3,
+            13
+        ]
+    },
+    "orthworm": {
+        "types": [
+            17
+        ]
+    },
+    "glimmet": {
+        "types": [
+            16,
+            14
+        ]
+    },
+    "glimmora": {
+        "types": [
+            16,
+            14
+        ]
+    },
+    "greavard": {
+        "types": [
+            9
+        ]
+    },
+    "houndstone": {
+        "types": [
+            9
+        ]
+    },
+    "flamigo": {
+        "types": [
+            8,
+            6
+        ]
+    },
+    "cetoddle": {
+        "types": [
+            12
+        ]
+    },
+    "cetitan": {
+        "types": [
+            12
+        ]
+    },
+    "veluza": {
+        "types": [
+            18,
+            15
+        ]
+    },
+    "dondozo": {
+        "types": [
+            18
+        ]
+    },
+    "tatsugiri-curly-form": {
+        "types": [
+            3,
+            18
+        ]
+    },
+    "tatsugiri-droopy-form": {
+        "types": [
+            3,
+            18
+        ]
+    },
+    "tatsugiri-stretchy-form": {
+        "types": [
+            3,
+            18
+        ]
+    },
+    "annihilape": {
+        "types": [
+            6,
+            9
+        ]
+    },
+    "clodsire": {
+        "types": [
+            14,
+            11
+        ]
+    },
+    "farigiraf": {
+        "types": [
+            13,
+            15
+        ]
+    },
+    "dudunsparce-two-segment-form": {
+        "types": [
+            13
+        ]
+    },
+    "dudunsparce-three-segment-form": {
+        "types": [
+            13
+        ]
+    },
+    "kingambit": {
+        "types": [
+            2,
+            17
+        ]
+    },
+    "great-tusk": {
+        "types": [
+            11,
+            6
+        ]
+    },
+    "scream-tail": {
+        "types": [
+            5,
+            15
+        ]
+    },
+    "brute-bonnet": {
+        "types": [
+            10,
+            2
+        ]
+    },
+    "flutter-mane": {
+        "types": [
+            9,
+            5
+        ]
+    },
+    "slither-wing": {
+        "types": [
+            1,
+            6
+        ]
+    },
+    "sandy-shocks": {
+        "types": [
+            4,
+            11
+        ]
+    },
+    "iron-treads": {
+        "types": [
+            11,
+            17
+        ]
+    },
+    "iron-bundle": {
+        "types": [
+            12,
+            18
+        ]
+    },
+    "iron-hands": {
+        "types": [
+            6,
+            4
+        ]
+    },
+    "iron-jugulis": {
+        "types": [
+            2,
+            8
+        ]
+    },
+    "iron-moth": {
+        "types": [
+            7,
+            14
+        ]
+    },
+    "iron-thorns": {
+        "types": [
+            16,
+            4
+        ]
+    },
+    "frigibax": {
+        "types": [
+            3,
+            12
+        ]
+    },
+    "arctibax": {
+        "types": [
+            3,
+            12
+        ]
+    },
+    "baxcalibur": {
+        "types": [
+            3,
+            12
+        ]
+    },
+    "gimmighoul-chest-form": {
+        "types": [
+            9
+        ]
+    },
+    "gimmighoul-roaming-form": {
+        "types": [
+            9
+        ]
+    },
+    "gholdengo": {
+        "types": [
+            17,
+            9
+        ]
+    },
+    "wo-chien": {
+        "types": [
+            2,
+            10
+        ]
+    },
+    "chien-pao": {
+        "types": [
+            2,
+            12
+        ]
+    },
+    "ting-lu": {
+        "types": [
+            2,
+            11
+        ]
+    },
+    "chi-yu": {
+        "types": [
+            2,
+            7
+        ]
+    },
+    "roaring-moon": {
+        "types": [
+            3,
+            2
+        ]
+    },
+    "iron-valiant": {
+        "types": [
+            5,
+            6
+        ]
+    },
+    "koraidon": {
+        "types": [
+            6,
+            3
+        ]
+    },
+    "miraidon": {
+        "types": [
+            4,
+            3
+        ]
+    },
+    "walking-wake": {
+        "types": [
+            18,
+            3
+        ]
+    },
+    "iron-leaves": {
+        "types": [
+            10,
+            15
+        ]
+    },
+    "dipplin": {
+        "types": [
+            10,
+            3
+        ]
+    },
+    "poltchageist": {
+        "types": [
+            10,
+            9
+        ]
+    },
+    "sinistcha": {
+        "types": [
+            10,
+            9
+        ]
+    },
+    "okidogi": {
+        "types": [
+            14,
+            6
+        ]
+    },
+    "munkidori": {
+        "types": [
+            14,
+            15
+        ]
+    },
+    "fezandipiti": {
+        "types": [
+            14,
+            5
+        ]
+    },
+    "ogerpon-teal-mask": {
+        "types": [
+            10
+        ]
+    },
+    "ogerpon-wellspring-mask": {
+        "types": [
+            10,
+            18
+        ]
+    },
+    "ogerpon-hearthflame-mask": {
+        "types": [
+            10,
+            7
+        ]
+    },
+    "ogerpon-cornerstone-mask": {
+        "types": [
+            10,
+            16
+        ]
+    },
+    "archaludon": {
+        "types": [
+            17,
+            3
+        ]
+    },
+    "hydrapple": {
+        "types": [
+            10,
+            3
+        ]
+    },
+    "gouging-fire": {
+        "types": [
+            7,
+            3
+        ]
+    },
+    "raging-bolt": {
+        "types": [
+            4,
+            3
+        ]
+    },
+    "iron-boulder": {
+        "types": [
+            16,
+            15
+        ]
+    },
+    "iron-crown": {
+        "types": [
+            17,
+            15
+        ]
+    },
+    "terapagos-normal-form": {
+        "types": [
+            13
+        ]
+    },
+    "terapagos-terastal-form": {
+        "types": [
+            13
+        ]
+    },
+    "terapagos-stellar-form": {
+        "types": [
+            13
+        ]
+    },
+    "pecharunt": {
+        "types": [
+            14,
+            9
+        ]
+    }
 }
