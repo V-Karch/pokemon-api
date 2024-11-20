@@ -41,6 +41,14 @@ pub struct PokemonType {
 }
 
 #[derive(serde::Serialize)]
+pub struct Item {
+    pub id: i32,
+    pub name: String,
+    pub category: Option<String>,
+    pub effect: Option<String>
+}
+
+#[derive(serde::Serialize)]
 pub struct Representative {
     pub id: i32,
     pub national_number: i32,

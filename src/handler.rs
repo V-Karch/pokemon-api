@@ -249,3 +249,31 @@ pub async fn search_type_by_name(
         )),
     }
 }
+
+pub async fn search_item_by_id(
+    item_id: i32,
+    pool: sqlx::SqlitePool,
+) -> model::WebResult<impl warp::Reply> {
+    match sqlx::query("SELECT * FROM items WHERE id = ?")
+        .bind(item_id)
+        .fetch_one(&pool)
+        .await
+    {
+        Ok(row) => Ok(warp::reply::with_status(
+            json(&model::Item {
+                id: row.get("id"),
+                name: row.get("name"),
+                category: row.try_get("category").ok(),
+                effect: row.try_get("effect").ok(),
+            }),
+            StatusCode::OK,
+        )),
+        Err(_) => Ok(warp::reply::with_status(
+            json(&model::GenericFailure {
+                status: "Error".to_string(),
+                message: format!("Type ID `{}` not found", item_id),
+            }),
+            StatusCode::NOT_FOUND,
+        )),
+    }
+}
