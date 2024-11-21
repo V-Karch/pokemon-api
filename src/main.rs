@@ -92,19 +92,19 @@ async fn main() {
 
     // Combine all the routes into one
     let routes = version_info_route
-        .or(search_move_by_id_route)
-        .or(search_move_by_name_route)
-        .or(search_ability_by_id_route)
-        .or(search_ability_by_name_route)
-        .or(list_all_moves_route)
-        .or(list_all_abilities_route)
-        .or(list_all_types_route)
-        .or(search_type_by_id_route)
-        .or(search_type_by_name_route)
-        .or(search_item_by_id_route)
-        .or(search_item_by_name_route)
-        .or(list_all_items_route)
-        .or(search_items_by_category_route)
+        .or(search_move_by_id_route) // Route for searching for moves by id
+        .or(search_move_by_name_route) // Route for searching for moves by name
+        .or(search_ability_by_id_route) // Route for searching for ability by id
+        .or(search_ability_by_name_route) // Route for searching for ability by name
+        .or(list_all_moves_route) // Route to list all move names
+        .or(list_all_abilities_route) // Route to list all ability names
+        .or(list_all_types_route) // Route to list all type names
+        .or(search_type_by_id_route) // Route to search for a type by id
+        .or(search_type_by_name_route) // Route to search for a type by name
+        .or(search_item_by_id_route) // Route to search for an item by id
+        .or(search_item_by_name_route) // Route to search for an item by name
+        .or(list_all_items_route) // Route to list all items by name
+        .or(search_items_by_category_route) // Route to list all items in a given category
         .with(warp::log("api"));
 
     println!("🚀 pokemon-api v0.0.1 started successfully at http://0.0.0.0:8000");
