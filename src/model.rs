@@ -1,5 +1,7 @@
 use warp::reject::Rejection;
 
+pub type WebResult<T> = std::result::Result<T, Rejection>;
+
 #[derive(serde::Serialize)]
 pub struct Move {
     pub id: i32,
@@ -45,7 +47,18 @@ pub struct Item {
     pub id: i32,
     pub name: String,
     pub category: Option<String>,
-    pub effect: Option<String>
+    pub effect: Option<String>,
 }
 
-pub type WebResult<T> = std::result::Result<T, Rejection>;
+#[derive(serde::Serialize)]
+pub struct BasePokemonData {
+    pub id: i32,
+    pub name: String,
+    pub species: String,
+    pub height: f32,
+    pub weight: f32,
+    pub catch_rate: i32,
+    pub base_friendship: i32,
+    pub base_experience: i32,
+    pub growth_rate: String,
+}
