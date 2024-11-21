@@ -90,6 +90,11 @@ async fn main() {
         .and(pool_filter.clone())
         .and_then(handlers::items::list_items_by_category);
 
+    let list_all_pokemon_names_route = warp::path!("api" / "pokemon")
+        .and(warp::get())
+        .and(pool_filter.clone())
+        .and_then(handlers::pokemon::list_all_pokemon_names);
+
     // Combine all the routes into one
     let routes = version_info_route
         .or(search_move_by_id_route) // Route for searching for moves by id
@@ -105,6 +110,7 @@ async fn main() {
         .or(search_item_by_name_route) // Route to search for an item by name
         .or(list_all_items_route) // Route to list all items by name
         .or(search_items_by_category_route) // Route to list all items in a given category
+        .or(list_all_pokemon_names_route) // Route to list all pokemon names
         .with(warp::log("api"));
 
     println!("🚀 pokemon-api v0.0.1 started successfully at http://0.0.0.0:8000");

@@ -79,7 +79,7 @@ pub async fn list_all_items(pool: sqlx::SqlitePool) -> model::WebResult<impl war
 pub async fn list_items_by_category(
     category_name: String,
     pool: sqlx::SqlitePool,
-) -> model::WebResult<impl warp::Reply> {
+) -> WebResult<impl warp::Reply> {
     match sqlx::query("SELECT * FROM items WHERE category = ?")
         .bind(&category_name)
         .fetch_all(&pool)
