@@ -1,4 +1,4 @@
-mod handler;
+mod handlers;
 mod model;
 mod utils;
 
@@ -23,72 +23,72 @@ async fn main() {
     // Define individual routes
     let version_info_route = warp::path!("api")
         .and(warp::get())
-        .and_then(handler::version_info);
+        .and_then(handlers::version::version_info);
 
     let search_move_by_id_route = warp::path!("api" / "move" / i32)
         .and(warp::get())
         .and(pool_filter.clone()) // Inject the pool into the route
-        .and_then(handler::search_move_by_id);
+        .and_then(handlers::moves::search_move_by_id);
 
     let search_move_by_name_route = warp::path!("api" / "move" / String)
         .and(warp::get())
         .and(pool_filter.clone()) // Inject the pool into the route
-        .and_then(handler::search_move_by_name);
+        .and_then(handlers::moves::search_move_by_name);
 
     let list_all_moves_route = warp::path!("api" / "move")
         .and(warp::get())
         .and(pool_filter.clone()) // Inject the pool into the route
-        .and_then(handler::list_all_moves);
+        .and_then(handlers::moves::list_all_moves);
 
     let search_ability_by_id_route = warp::path!("api" / "ability" / i32)
         .and(warp::get())
         .and(pool_filter.clone()) // Inject the pool into the route
-        .and_then(handler::search_ability_by_id);
+        .and_then(handlers::abilities::search_ability_by_id);
 
     let search_ability_by_name_route = warp::path!("api" / "ability" / String)
         .and(warp::get())
         .and(pool_filter.clone()) // Inject the pool into the route
-        .and_then(handler::search_ability_by_name);
+        .and_then(handlers::abilities::search_ability_by_name);
 
     let list_all_abilities_route = warp::path!("api" / "ability")
         .and(warp::get())
         .and(pool_filter.clone())
-        .and_then(handler::list_all_abilities);
+        .and_then(handlers::abilities::list_all_abilities);
 
     let list_all_types_route = warp::path!("api" / "type")
         .and(warp::get())
         .and(pool_filter.clone())
-        .and_then(handler::list_all_types);
+        .and_then(handlers::types::list_all_types);
 
     let search_type_by_id_route = warp::path!("api" / "type" / i32)
         .and(warp::get())
         .and(pool_filter.clone()) // Inject the pool into the route
-        .and_then(handler::search_type_by_id);
+        .and_then(handlers::types::search_type_by_id);
 
     let search_type_by_name_route = warp::path!("api" / "type" / String)
         .and(warp::get())
         .and(pool_filter.clone()) // Inject the pool into the route
-        .and_then(handler::search_type_by_name);
+        .and_then(handlers::types::search_type_by_name);
 
     let search_item_by_id_route = warp::path!("api" / "item" / i32)
         .and(warp::get())
         .and(pool_filter.clone())
-        .and_then(handler::search_item_by_id);
+        .and_then(handlers::items::search_item_by_id);
 
     let search_item_by_name_route = warp::path!("api" / "item" / String)
         .and(warp::get())
         .and(pool_filter.clone())
-        .and_then(handler::search_item_by_name);
+        .and_then(handlers::items::search_item_by_name);
 
     let list_all_items_route = warp::path!("api" / "item")
         .and(warp::get())
         .and(pool_filter.clone())
-        .and_then(handler::list_all_items);
+        .and_then(handlers::items::list_all_items);
 
     let search_items_by_category_route = warp::path!("api" / "item" / "category" / String)
         .and(warp::get())
         .and(pool_filter.clone())
-        .and_then(handler::list_items_by_category);
+        .and_then(handlers::items::list_items_by_category);
 
     // Combine all the routes into one
     let routes = version_info_route
