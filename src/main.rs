@@ -95,6 +95,10 @@ async fn main() {
         .and(pool_filter.clone())
         .and_then(handlers::pokemon::list_all_pokemon_names);
 
+    let list_unsupported_route = warp::path!("api" / "unsupported")
+        .and(warp::get())
+        .and_then(handlers::version::list_unsupported);
+
     // Combine all the routes into one
     let routes = version_info_route
         .or(search_move_by_id_route) // Route for searching for moves by id
@@ -111,6 +115,7 @@ async fn main() {
         .or(list_all_items_route) // Route to list all items by name
         .or(search_items_by_category_route) // Route to list all items in a given category
         .or(list_all_pokemon_names_route) // Route to list all pokemon names
+        .or(list_unsupported_route) // List to show currently unsupported pokemon
         .with(warp::log("api"));
 
     println!("🚀 pokemon-api v0.0.1 started successfully at http://0.0.0.0:8000");
