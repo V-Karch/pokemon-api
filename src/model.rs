@@ -55,10 +55,18 @@ pub struct BasePokemonData {
     pub id: i32,
     pub name: String,
     pub species: String,
-    pub height: f32,
-    pub weight: f32,
+    pub height: i32,
+    pub weight: i32,
     pub catch_rate: i32,
-    pub base_friendship: i32,
+    pub base_friendship: Option<i32>,
     pub base_experience: i32,
     pub growth_rate: String,
+}
+
+#[derive(serde::Serialize)]
+pub struct ServePokemon {
+    pub base_data: BasePokemonData,
+    pub abilites: Vec<Ability>,
+    pub types: Vec<PokemonType>,
+    pub moves: Vec<Move>
 }
