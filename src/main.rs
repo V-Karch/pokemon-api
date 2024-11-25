@@ -2,7 +2,6 @@ mod handlers;
 mod model;
 mod utils;
 
-use handlers::pokemon::search_pokemon_by_name;
 use warp::Filter;
 
 #[tokio::main]
