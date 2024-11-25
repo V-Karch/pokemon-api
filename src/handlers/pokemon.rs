@@ -18,3 +18,23 @@ pub async fn list_all_pokemon_names(pool: sqlx::SqlitePool) -> WebResult<impl wa
         )),
     };
 }
+
+pub async fn search_pokemon_by_name(pokemon_name: String, pool: sqlx::SqlitePool) -> WebResult<impl warp::Reply> {
+    return Ok(warp::reply::with_status(
+        json(&model::GenericFailure {
+            status: format!("Error: `{}`", pokemon_name),
+            message: "This endpoint is not yet implemented".to_string(),
+        }),
+        StatusCode::INTERNAL_SERVER_ERROR,
+    ))
+}
+
+pub async fn search_pokemon_by_id(pokemon_id: i32, pool: sqlx::SqlitePool) -> WebResult<impl warp::Reply> {
+    return Ok(warp::reply::with_status(
+        json(&model::GenericFailure {
+            status: format!("Error: `{}`", pokemon_id),
+            message: "This endpoint is not yet implemented.".to_string(),
+        }),
+        StatusCode::INTERNAL_SERVER_ERROR,
+    ))
+}
