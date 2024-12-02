@@ -81,4 +81,4 @@ pub struct ServePokemon {
     pub abilites: Vec<Ability>,
     pub types: Vec<PokemonType>,
     pub moves: Vec<Move>
-}
+} // TODO: Add locations
