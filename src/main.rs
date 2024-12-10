@@ -109,6 +109,11 @@ async fn main() {
         .and(pool_filter.clone())
         .and_then(handlers::pokemon::search_pokemon_by_name);
 
+    let search_location_by_id_route = warp::path!("api" / "location" / i32)
+        .and(warp::get())
+        .and(pool_filter.clone())
+        .and_then(handlers::locations::search_location_by_id);
+
     // Combine all the routes into one
     let routes = version_info_route
         .or(search_move_by_id_route) // Route for searching for moves by id
@@ -128,6 +133,7 @@ async fn main() {
         .or(list_unsupported_route) // List to show currently unsupported pokemon
         .or(search_pokemon_by_id_route) // Search for a pokemon by it's id (uninmplemented)
         .or(search_pokemon_by_name_route) // Search for a pokemon by it's name (uninplemented)
+        .or(search_location_by_id_route) // Look up very basic location info by id
         .with(warp::log("api"));
 
     println!("🚀 pokemon-api v0.0.1 started successfully at http://0.0.0.0:8000");
