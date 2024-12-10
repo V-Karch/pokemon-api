@@ -51,6 +51,13 @@ pub struct Item {
 }
 
 #[derive(serde::Serialize)]
+pub struct Location {
+    pub id: i32,
+    pub name: String,
+    pub generation: i32
+}
+
+#[derive(serde::Serialize)]
 pub struct BasePokemonData {
     pub id: i32,
     pub name: String,
